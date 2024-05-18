@@ -1,3 +1,5 @@
+This repository contains all projects from different courses at FIT VUT BIT.
+
 ## First semester
 
 | **Course** | **Project** | **Results** |                 **Description**                |
