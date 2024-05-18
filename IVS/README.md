@@ -1,0 +1,1 @@
+Zadanie projektu 2: https://ivs.fit.vutbr.cz/projekt-2_tymova_spoluprace2020-21.html

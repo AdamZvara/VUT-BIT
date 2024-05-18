@@ -1,0 +1,1 @@
+Zadanie je z roku 2022, ale myslím, že sa nič nemenilo odvtedy.
