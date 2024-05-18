@@ -1,0 +1,321 @@
+#!/bin/sh
+
+#file: tradelog
+#author: Adam Zvara, xzvara01 FIT
+#date: 22.3.2021
+
+export POSIXLY_CORRECT=yes
+export LC_ALL=C
+export LC_NUMERIC=en_US.UTF-8
+
+usage(){
+    echo "tradelog [-h|--help] [FILTR] [PRIKAZ] [LOG [LOG2 [...]]"
+    printf "\nPrikazy:\n"
+    printf "\tlist-tick - vypis tickerov
+    \tprofit - vypis celkoveho zisku uzavrenych pozic
+    \tpos - zoradeny vypis hodnot aktualne drzanych pozic
+    \tlast-price - posledna znama cena pre ticker
+    \thist-ord - histogram poctu transakcii podla tickeru
+    \tgraph-pos - graf hodnot drzenych pozic podla tickeru\n"
+
+    printf "\nFiltre:\n"
+    printf "\t-a DATETIME - after - zobrazenie zaznamov po urcitom datume
+    \t\tdatum je vo formate YYYY-MM-DD HH:MM:SS
+    \t-b DATETIME - before - zobrazenie zaznamov pred urcitym datumom
+    \t-t TICKER - zobrazenie zaznamov konkretneho tickeru
+    \t-w WIDTH - sirka grafu (cele kladne cislo)\n"
+
+    printf "\n-h/--help pre zobrazenie tejto spravy\n"
+}
+
+GZ_FILES=""
+LOG_FILES=""
+COMMAND=""
+
+DATE_AFTER=""
+DATE_BEFORE=""
+TICKER_FILTER=""
+WIDTH=""
+
+#manually check for --help option - or use getopt next time!
+for arg in "$@"; do
+    if [ "$arg" = '--help' ]; then
+        usage
+        exit 0
+    fi
+done
+
+#TODO remake AFTER/BEFORE if selected multiple times
+#parsing options
+while getopts ':a:b:t:w:h' option
+do
+    case "$option" in
+        a)
+            #if multiple -a options are passed, the latest one is selected
+            if [ "$OPTARG" \> "$DATE_AFTER" ]; then
+                DATE_AFTER="$OPTARG"
+            fi
+            shift; shift;;
+        b)
+            if [ "$DATE_BEFORE" = "" ]; then
+                DATE_BEFORE="$OPTARG"
+            fi
+            if [ "$OPTARG" \< "$DATE_BEFORE" ]; then
+                DATE_BEFORE="$OPTARG"
+            fi
+            shift; shift;;
+        t)
+            #some magic to have TICKER_FILTER ready to use as regex
+            #TICKER_FILTER is in format ^TICKER1$|^TICKER2$|^TICKER3$ ...
+            TICKER_FILTER="^$OPTARG$|$TICKER_FILTER"
+            TICKER_FILTER=$(echo "$TICKER_FILTER" | sed 's/.$//')
+            TICKER_FILTER="$TICKER_FILTER$"
+            shift; shift;;
+        w)
+            if [ "$WIDTH" != "" ]; then
+                echo "Width sa mozete nastavit len raz!"
+                exit 1
+            else
+                if [ "$OPTARG" -le 0 ]; then
+                    echo "Width musi byt cele kladne cislo!"
+                    exit 1
+                else
+                    WIDTH="$OPTARG"
+                    shift; shift
+                fi
+            fi;;
+        h) usage; exit 0;;
+        *) echo "Neplatny prepinac!"; exit 1;;
+    esac
+done
+
+#parsing command
+case "$1" in
+    list-tick) COMMAND="list-tick";shift;;
+    profit) COMMAND="profit";shift;;
+    pos) COMMAND="pos";shift;;
+    last-price) COMMAND="last-price";shift;;
+    hist-ord) COMMAND="hist-ord";shift;;
+    graph-pos) COMMAND="graph-pos";shift;;
+    *) COMMAND="none";;
+esac
+
+#get input files from command line
+while [ "$1" != "" ]; do
+    val=$(expr match "$1" '.*\.gz$')
+    if [ "$val" != 0 ]; then
+        GZ_FILES="$1 $GZ_FILES"
+    else
+        LOG_FILES="$1 $LOG_FILES"
+    fi
+    shift
+done
+
+#set contents of files to variable input
+if [ "$GZ_FILES" != "" ]; then
+    INPUT=$(gzip -d -c $GZ_FILES | cat $LOG_FILES -)
+elif [ "$LOG_FILES" != "" ]; then
+    INPUT=$(cat $LOG_FILES)
+else
+    INPUT=$(cat)
+fi
+
+#apply options [after, before, ticker] from getopts
+if [ "$TICKER_FILTER" != "" ]; then 
+    INPUT=$(echo "$INPUT" | awk -F ';' -v filters="$TICKER_FILTER" '$2 ~ (filters) {print $0}')
+fi
+
+if [ "$DATE_AFTER" != "" ]; then 
+    INPUT=$(echo "$INPUT" | awk -F ';' -v filter="$DATE_AFTER" '{if ($1 > filter) print $0}')
+fi
+
+if [ "$DATE_BEFORE" != "" ]; then 
+    INPUT=$(echo "$INPUT" | awk -F ';' -v filter="$DATE_BEFORE" '{if ($1 < filter) print $0}')
+fi
+
+#default action, when no command is called
+if [ "$COMMAND" = 'none' ]; then
+    echo "$INPUT"
+
+#list-tick function - sorts out file by second column
+elif [ "$COMMAND" = "list-tick" ]; then 
+    echo "$INPUT" | awk -F ';' '{print $2}' | sort | uniq
+
+#profit function - calculates whole profit based on sell/buy column (3rd) and
+#value (4th column) * volume (6th column)
+elif [ "$COMMAND"  = "profit" ]; then 
+    echo "$INPUT" |
+    awk -F ';' '{
+        tmp=$4*$6;
+        if ($3 == "sell") value+=tmp
+        else if ($3 == "buy") value-=tmp
+        }
+        END{printf("%.2f\n", value)
+        }' 
+
+#pos function
+#prev = name of previous ticket
+#value = sum of buy/sell values
+#price = last price for a ticket
+#TODO align numbers on right
+elif [ "$COMMAND" = "pos" ]; then 
+    #sorts file based on second then first column
+    echo "$INPUT"  | sort -s -t\; -k2,2 -k1,1 |  
+    #puts input into format: "TICKER VALUE"
+    awk -F ';' '{
+        if (prev != $2){
+            if (value != 0){ 
+                printf("%s %.2f\n", prev, value*price) 
+            }
+                value=(($3 == "sell") ? value=-$6 : value=$6) 
+                prev = $2
+            } else { 
+                ($3 == "sell") ? value-=$6 : value+=$6 
+                price=$4}
+            } 
+            END{printf("%s %.2f\n", prev, value*price)}' | 
+    sed -r 's/-([0-9]+.[0-9]+)/\1-/g;' | #place minus sign after the number -5 -> 5-
+    awk '{printf("%s %d\n", $0, length($2))}' | #print length of value at the end
+    sort -k3nr | #sort by length of value
+    sed -r 's/([0-9]+.[0-9]+)-/-\1/g;' | #place minus sign infront of the number
+    awk '{
+        if (NR == 1){
+            max=length($2)
+        } 
+        printf("%-9s : %*.2f\n", $1, max, $2)}' |
+    #sort by actual values
+    sort -t: -k2nr 
+
+
+#last-price function 
+#prev = name of previous ticket
+#price = price of the last item
+elif [ "$COMMAND" = "last-price" ]; then 
+    echo "$INPUT" | sort -s -t\; -k2,2 -k1,1 | #sorts file based on second then first column
+    awk -F ';' '{
+        if (NR == 1){
+            prev = $2
+        } 
+        if (prev != $2){
+            printf("%-9s : %7.2f\n", prev, price)
+            prev = $2
+        } else price=$4
+        } 
+        END{printf "%-9s : %7.2f\n", prev, price}' 
+
+#hist-ord function
+#prev = name of previous ticket
+elif [ "$COMMAND" = "hist-ord" ]; then 
+    echo "$INPUT" | sort -s -t\; -k2,2 -k1,1 | 
+    if [ "$WIDTH" = "" ]; then
+        awk -F ';' '{
+            if (NR == 1){
+                prev = $2 
+                printf("%-9s : ", prev)
+            } else {
+                if (prev != $2){
+                    prev = $2
+                    printf("#\n%-9s : ", prev)
+                } else printf("#")
+            } 
+            }
+            END{printf("#\n")}'
+    else
+        awk -F ';' '{
+            if (NR == 1){
+                prev = $2 
+                printf("%s ", prev)
+            } else {
+                if (prev != $2){
+                    count++
+                    prev = $2
+                    printf("%d\n%s ", count, prev)
+                    count = 0
+                } else count++
+            } 
+            } END{printf("%d\n", ++count)}' | sort -k2nr |
+        awk -v width="$WIDTH" '{
+            if (NR == 1){
+                max = $2
+            }
+            count = int(($2*int(width))/max)
+            printf("%-9s : ", $1)
+            while (count > 0){
+                printf("#")
+                count--
+            }
+            printf("\n")
+        }' | sort
+    fi
+
+#prev = name of previous ticket
+#value = sum of buy/sell values
+#price = last price for a ticket
+elif [ "$COMMAND" = "graph-pos" ]; then 
+    echo "$INPUT" | sort -s -t\; -k2,2 -k1,1  | #sorts file based on second then first column
+    awk -F ';' '{
+        if (prev != $2) {
+            if (value != 0){ 
+                printf("%s %.2f\n", prev, value*price)
+            }
+            value=(($3 == "sell") ? value=-$6 : value=$6); prev = $2
+        }
+        else { 
+            ($3 == "sell") ? value-=$6 : value+=$6; price=$4
+        }
+        } 
+        END{
+        printf("%s %.2f\n", prev, value*price)
+    }' | 
+    #sorting absolute value of prices
+    sed -r 's/-([0-9]+.[0-9]+)/\1-/g;' | #place minus sign after the number -5 -> 5-
+    sort -k2nr |
+    sed -r 's/([0-9]+.[0-9]+)-/-\1/g;' | #place minus sign infront of the number
+    if [ "$WIDTH" = "" ]; then
+        #no width option
+        awk '{
+            printf("%-9s : ", $1)
+            count = int($2/1000)
+            if ($2 > 0){
+                while (count > 0){ 
+                    count--
+                    printf("#")
+                }
+            } else {
+                while (count < 0){
+                    count++
+                    printf("!")
+                }
+            } 
+            printf("\n")
+        }' | sort
+    else
+        #width option
+        awk -v width="$WIDTH" '{
+            printf("%-9s :", $1)
+            if (NR == 1){
+                if ($2 > 0)
+                    max = $2
+                else
+                    max = -$2
+            }
+            count = int(($2*int(width))/max)
+            if (count != 0) printf(" ")
+            if ($2 > 0){
+                while (count > 0){ 
+                    count--
+                    printf("#")
+                }
+            } else {
+                while (count < 0){
+                    count++
+                    printf("!")
+                }
+            } 
+            printf("\n")
+        }' | sort
+    fi
+fi
+
+exit 0
+

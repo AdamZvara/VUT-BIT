@@ -1,0 +1,1587 @@
+[
+  {
+    "casR": "14. 11. 2022 14:16:02",
+    "casA": "14. 11. 2022 14:15:19"
+  },
+  {
+    "cislo": 18,
+    "kod_pasport": "KOL006N020075",
+    "typ": "menza",
+    "nazev": "Pizzerie Mozzarella",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "m",
+    "otv1-4a": "11:00-20:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 350 ",
+        "popis": "Houbové rizoto",
+        "epopis": "Mushroom risotto",
+        "alergen": "1,3,7,9,13",
+        "cenaS": 46,
+        "cenaZ": 19,
+        "cenaE": 81,
+        "slozeni": [
+          "Žampiony",
+          "Rýže",
+          "Cibule",
+          "Parmazán strouhaný sýr",
+          "Vývar houbový",
+          "Olej",
+          "Sůl",
+          "Tymián-koření",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Hovězí steak s americkým kořením",
+        "epopis": "Beef steak with american spicy",
+        "alergen": "7,9,10,11",
+        "cenaS": 67,
+        "cenaZ": 62,
+        "cenaE": 116,
+        "slozeni": [
+          "Hovězí roštěná ",
+          "Olej",
+          "Sůl",
+          "Country koření",
+          "Grilovací koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Krkovička steak 150g",
+        "epopis": "Krkovička steak 150g",
+        "alergen": "7,10,11",
+        "cenaS": 57,
+        "cenaZ": 52,
+        "cenaE": 106,
+        "slozeni": [
+          "Krkovice vepřová 150g ",
+          "Olej",
+          "Mr.česnek",
+          "Hořčice",
+          "Sůl",
+          "Gyros-koření",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "120 / 72 ",
+        "popis": "Kuřecí prsa Šiš-tauk marinovaná",
+        "epopis": "Kuřecí prsa Šiš-tauk marinovaná",
+        "alergen": "",
+        "cenaS": 50,
+        "cenaZ": 22,
+        "cenaE": 84,
+        "slozeni": [
+          "Kuřecí řízky",
+          "Víno červené",
+          "Rajčatový protlak",
+          "Česneková pasta",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "120 / 72 ",
+        "popis": "Kuřecí směs se šunkou a ananasem",
+        "epopis": "Chicken mix with ham and pineapple",
+        "alergen": "1,3,7,9,10,11,13",
+        "cenaS": 56,
+        "cenaZ": 28,
+        "cenaE": 90,
+        "slozeni": [
+          "Kuřecí řízky",
+          "Pór",
+          "Cibule",
+          "Kečup",
+          "Kompot ananas",
+          "Šunka",
+          "Olej",
+          "Mouka hladká",
+          "Solamyl-bram.škrob",
+          "Sůl",
+          "Vývar slepičí",
+          "Kari koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Kuřecí steak s jarním kořením",
+        "epopis": "Kuřecí steak s jarním kořením",
+        "alergen": "1,7",
+        "cenaS": 57,
+        "cenaZ": 52,
+        "cenaE": 106,
+        "slozeni": [
+          "Kuřecí řízky ",
+          "Olej",
+          "Mouka hladká",
+          "Sůl",
+          "Máslo",
+          "Bylinkové máslo"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 450 ",
+        "popis": "Pizza 4 druhy sýrů",
+        "epopis": "Pizza Quattro Formaggi",
+        "alergen": "1,6,7,12",
+        "cenaS": 75,
+        "cenaZ": 70,
+        "cenaE": 125,
+        "slozeni": [
+          "St.rajčata krájená",
+          "Mozzarella sýr",
+          "Uzený sýr",
+          "Niva sýr",
+          "Rajčata",
+          "Cukr krystal",
+          "Olej olivový",
+          "Sůl",
+          "Těsto na pizzu",
+          "Hermelín sýr ",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 410 ",
+        "popis": "Pizza cibulová se slaninou",
+        "epopis": "Pizza with onion and bacon",
+        "alergen": "1,6,7",
+        "cenaS": 56,
+        "cenaZ": 53,
+        "cenaE": 107,
+        "slozeni": [
+          "Smetana ",
+          "Anglická slanina",
+          "Eidam sýr",
+          "Cibule",
+          "Olej olivový",
+          "Těsto na pizzu",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 460 ",
+        "popis": "Pizza klobásová pikantní",
+        "epopis": "Pizza piquant with sausages",
+        "alergen": "1,6,7,12",
+        "cenaS": 72,
+        "cenaZ": 67,
+        "cenaE": 121,
+        "slozeni": [
+          "St.rajčata krájená",
+          "Klobása kozácká",
+          "Mr.paprika",
+          "Paprikáš salám",
+          "Mozzarella sýr",
+          "St.feferonky kulaté",
+          "Parmazán strouhaný sýr",
+          "Cukr krystal",
+          "Olej olivový",
+          "Sůl",
+          "Mr.česnek",
+          "Těsto na pizzu",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 300 ",
+        "popis": "Pizza Margherita",
+        "epopis": "Pizza Margherita",
+        "alergen": "1,6,7,12",
+        "cenaS": 44,
+        "cenaZ": 39,
+        "cenaE": 93,
+        "slozeni": [
+          "St.rajčata krájená",
+          "Mozzarella sýr",
+          "Cukr krystal",
+          "Olej olivový",
+          "Mr.česnek",
+          "Sůl",
+          "Těsto na pizzu",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 470 ",
+        "popis": "Pizza se smetanou, šunkou a kukuřicí",
+        "epopis": "Pizza with cream, ham and corn",
+        "alergen": "1,3,6,7,12",
+        "cenaS": 75,
+        "cenaZ": 70,
+        "cenaE": 125,
+        "slozeni": [
+          "Smetana ",
+          "Mozzarella sýr",
+          "Anglická slanina",
+          "Šunka",
+          "Mr.kukuřice",
+          "Olej olivový",
+          "Vejce",
+          "Těsto na pizzu",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 450 ",
+        "popis": "Pizza se šunkou a uzeným sýrem",
+        "epopis": "Pizza with ham and smoked cheese",
+        "alergen": "1,6,7",
+        "cenaS": 69,
+        "cenaZ": 64,
+        "cenaE": 118,
+        "slozeni": [
+          "St.rajčata krájená",
+          "Šunka",
+          "Uzený sýr",
+          "Parmazán strouhaný sýr",
+          "Cukr krystal",
+          "Mr.česnek",
+          "Olej olivový",
+          "Sůl",
+          "Těsto na pizzu",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 480 ",
+        "popis": "Pizza se šunkou, sýrem a pikantní salám",
+        "epopis": "Pizza with ham, cheese and salami",
+        "alergen": "1,3,6,7,9,10,12",
+        "cenaS": 67,
+        "cenaZ": 62,
+        "cenaE": 116,
+        "slozeni": [
+          "Mozzarella sýr",
+          "Šunka",
+          "Rajčata",
+          "Poesie sýrová",
+          "Paprikáš salám",
+          "Olej olivový",
+          "Bylinkové máslo",
+          "Těsto na pizzu"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "100 / 350 ",
+        "popis": "Rizoto kuřecí",
+        "epopis": "Chicken risotto",
+        "alergen": "1,3,7,9,13",
+        "cenaS": 56,
+        "cenaZ": 29,
+        "cenaE": 90,
+        "slozeni": [
+          "Rýže",
+          "Kuřecí řízky",
+          "Uzený sýr",
+          "Cibule",
+          "Mrkev",
+          "Mr.hrášek",
+          "Tuk",
+          "Mouka hladká",
+          "Sůl",
+          "Vývar slepičí",
+          "Česneková pasta",
+          "Rajčatový protlak",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "100 / 400 ",
+        "popis": "Těstoviny s kuřecím masem, špenátem a parmezánem",
+        "epopis": "Pasta with chicken and spinach",
+        "alergen": "1,3,7,9,10,11,12,13",
+        "cenaS": 61,
+        "cenaZ": 33,
+        "cenaE": 95,
+        "slozeni": [
+          "Těstoviny",
+          "Kuřecí řízky",
+          "Smetana na vaření",
+          "Niva sýr",
+          "Mr.špenátové listy",
+          "Cibule",
+          "Parmazán strouhaný sýr",
+          "Mouka hladká",
+          "Olej",
+          "Grilovací koření",
+          "Sůl",
+          "Vývar slepičí",
+          "Suš.česnek plátky"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 330 ",
+        "popis": "Čočková polévka po indicku",
+        "epopis": "Čočková polévka po indicku",
+        "alergen": "1,3,6,7,9,10,11,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Brambory ",
+          "Čočka červená",
+          "Cibule",
+          "Mr.mrkev",
+          "Mr.česnek",
+          "Rajčatový protlak",
+          "Olej",
+          "Vývar zeleninový",
+          "Zázvor mletý",
+          "Sůl",
+          "Kari koření",
+          "Petržel nať"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 330 ",
+        "popis": "Silácká polévka",
+        "epopis": "Macho soup",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Mr.mexická směs zelenina",
+          "Sůl",
+          "Vývar zeleninový",
+          "Mr.petržel nať",
+          "Vejce"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát ovocný",
+        "epopis": "Fruit salad",
+        "alergen": "",
+        "cenaS": 25,
+        "cenaZ": 25,
+        "cenaE": 25,
+        "slozeni": [
+          "Kompot ananas",
+          "Hrozny",
+          "Pomeranče",
+          "Cukr krystal",
+          "Sirup",
+          "Citronový koncentrát"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát zeleninový",
+        "epopis": "Vegetable salad",
+        "alergen": "9",
+        "cenaS": 20,
+        "cenaZ": 20,
+        "cenaE": 20,
+        "slozeni": [
+          "Zelí hlávkové",
+          "Cukr krystal",
+          "Ocet",
+          "St.kopr",
+          "Sůl",
+          "Olej"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Brambory americké M",
+        "epopis": "Brambory americké M",
+        "alergen": "",
+        "cenaS": 22,
+        "cenaZ": 22,
+        "cenaE": 22,
+        "slozeni": [
+          "Brambory americké",
+          "Olej",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 250 ",
+        "popis": "Brambory vařené M",
+        "epopis": "Potatoes",
+        "alergen": "",
+        "cenaS": 19,
+        "cenaZ": 19,
+        "cenaE": 19,
+        "slozeni": [
+          "Brambory ",
+          "Sůl",
+          "Pór",
+          "Kmín"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Hranolky M",
+        "epopis": "French fries",
+        "alergen": "",
+        "cenaS": 22,
+        "cenaZ": 22,
+        "cenaE": 22,
+        "slozeni": [
+          "Hranolky",
+          "Olej",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 100 ",
+        "popis": "Omáčky ke steakům ST",
+        "epopis": "Omáčky ke steakům ST",
+        "alergen": "1,3,7,9,13",
+        "cenaS": 10,
+        "cenaZ": 10,
+        "cenaE": 10,
+        "slozeni": [
+          "Kečup",
+          "Mr.česnek",
+          "Olej",
+          "Sůl",
+          "Vývar hovězí",
+          "Chilli koření"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Rýže jasmínová",
+        "epopis": "Rýže jasmínová",
+        "alergen": "",
+        "cenaS": 13,
+        "cenaZ": 13,
+        "cenaE": 13,
+        "slozeni": [
+          "Rýže Jasmínová",
+          "Cibule",
+          "Olej",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Těstoviny M",
+        "epopis": "Pasta",
+        "alergen": "1,3",
+        "cenaS": 13,
+        "cenaZ": 13,
+        "cenaE": 13,
+        "slozeni": [
+          "Těstoviny",
+          "Sůl",
+          "Olej"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 150 ",
+        "popis": "Zeleninová směs M",
+        "epopis": "Vegetable mix",
+        "alergen": "7",
+        "cenaS": 16,
+        "cenaZ": 16,
+        "cenaE": 16,
+        "slozeni": [
+          "Mr.lázeňská směs zelenina",
+          "Máslo",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "",
+        "popis": "Pochutiny",
+        "epopis": "Seasonings",
+        "alergen": "7",
+        "cenaS": 7,
+        "cenaZ": 7,
+        "cenaE": 7,
+        "slozeni": []
+      }
+    ]
+  },
+  {
+    "cislo": 19,
+    "kod_pasport": "KOL006N010044",
+    "typ": "bufet",
+    "nazev": "Caffe Bar Piccolo",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "n",
+    "otv1-4a": "7:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "7:00-14:00",
+    "otv5p": "-",
+    "otv67a": "7:00-9:30",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 20,
+    "kod_pasport": "KOL006N020103",
+    "typ": "menza",
+    "nazev": "Menza Kolejní",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "m",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "",
+        "popis": "Menu R 4: Polévka rajčatová s rýží, Smažené sýrové duo, tatarská omáčka, Hranolky M ",
+        "epopis": "Menu R 4: Polévka rajčatová s rýží, Smažené sýrové duo, tatarská omáčka, Hranolky M ",
+        "alergen": "1,3,6,7,9,10,13",
+        "cenaS": 65,
+        "cenaZ": 51,
+        "cenaE": 125,
+        "slozeni": [
+          "Rajčatový protlak",
+          "Cibule",
+          "Mouka hladká",
+          "Cukr krystal",
+          "Rýže",
+          "Polévkové koření",
+          "Sůl",
+          "Tuk",
+          "Citrony",
+          "Ocet",
+          "Vývar zeleninový",
+          "Skořice",
+          "Hranolky",
+          "Olej",
+          "Sůl",
+          "Uzený sýr",
+          "Strouhanka",
+          "Tatarská omáčka",
+          "Mouka hladká",
+          "Mléko",
+          "Olej",
+          "Hermelín sýr ",
+          "Vejce"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 79 ",
+        "popis": "Kančí nudličky se šípkovou omáčkou",
+        "epopis": "Kančí nudličky se šípkovou omáčkou",
+        "alergen": "1,9",
+        "cenaS": 64,
+        "cenaZ": 36,
+        "cenaE": 98,
+        "slozeni": [
+          "Kančí maso",
+          "Cibule",
+          "Tuk",
+          "Víno červené",
+          "Mouka hladká",
+          "Citronový koncentrát",
+          "Rajčatový protlak",
+          "Celer",
+          "Petržel",
+          "Mrkev",
+          "Džem šípkový",
+          "Cukr krystal",
+          "Sůl",
+          "Bobkový list",
+          "Nové koření",
+          "Pepř celý",
+          "Jalovec-koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 370 ",
+        "popis": "Těstoviny s rajčaty a sýrem",
+        "epopis": "Pasta with tomatoes and cheese",
+        "alergen": "1,3,6,7,9,12,13",
+        "cenaS": 47,
+        "cenaZ": 20,
+        "cenaE": 81,
+        "slozeni": [
+          "St.rajčata krájená",
+          "Těstoviny",
+          "Eidam sýr",
+          "Mouka hladká",
+          "Olej",
+          "Cukr krystal",
+          "Suš.česnek plátky",
+          "Sůl",
+          "Vývar zeleninový",
+          "Bazalka koření"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 300 ",
+        "popis": "Polévka rajčatová s rýží",
+        "epopis": "Tomato soup with rice",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Rajčatový protlak",
+          "Cibule",
+          "Mouka hladká",
+          "Cukr krystal",
+          "Rýže",
+          "Polévkové koření",
+          "Sůl",
+          "Tuk",
+          "Citrony",
+          "Ocet",
+          "Vývar zeleninový",
+          "Skořice"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát coleslaw",
+        "epopis": "Salát coleslaw",
+        "alergen": "3,6,7,9,10",
+        "cenaS": 25,
+        "cenaZ": 25,
+        "cenaE": 25,
+        "slozeni": []
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát ovocný",
+        "epopis": "Fruit salad",
+        "alergen": "",
+        "cenaS": 25,
+        "cenaZ": 25,
+        "cenaE": 25,
+        "slozeni": []
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát šopský",
+        "epopis": "Shopska salad",
+        "alergen": "7",
+        "cenaS": 25,
+        "cenaZ": 25,
+        "cenaE": 25,
+        "slozeni": [
+          "Rajčata",
+          "Okurky",
+          "Paprika",
+          "Balkánský sýr",
+          "Ocet",
+          "Petržel nať",
+          "Sůl",
+          "Olej olivový"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát tzatziki",
+        "epopis": "Tzatziki salad",
+        "alergen": "1,7",
+        "cenaS": 25,
+        "cenaZ": 25,
+        "cenaE": 25,
+        "slozeni": []
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Salát zeleninový",
+        "epopis": "Vegetable salad",
+        "alergen": "9",
+        "cenaS": 20,
+        "cenaZ": 20,
+        "cenaE": 20,
+        "slozeni": [
+          "Zelí hlávkové",
+          "Cukr krystal",
+          "Ocet",
+          "St.kopr",
+          "Sůl",
+          "Olej"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Hranolky M",
+        "epopis": "French fries",
+        "alergen": "",
+        "cenaS": 22,
+        "cenaZ": 22,
+        "cenaE": 22,
+        "slozeni": [
+          "Hranolky",
+          "Olej",
+          "Sůl"
+        ]
+      }
+    ]
+  },
+  {
+    "cislo": 10,
+    "kod_pasport": "PUR013N020017",
+    "typ": "menza",
+    "nazev": "Menza Purkyňova",
+    "adresa": "Purkyňova 93, Brno-Královo Pole",
+    "stav": "m",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "17:00-20:00",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "100 / 120 ",
+        "popis": "Balkánský sýr v papilotě na řecký způsob",
+        "epopis": "Balkánský sýr v papilotě na řecký způsob",
+        "alergen": "7",
+        "cenaS": 49,
+        "cenaZ": 21,
+        "cenaE": 83,
+        "slozeni": [
+          "Balkánský sýr",
+          "Cibule",
+          "Rajčata",
+          "Olej olivový",
+          "Petržel nať",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "120 / 72 ",
+        "popis": "Kuřecí Luciferovo sousto",
+        "epopis": "Chicken strips in tomato sauce with sausage and chilli",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 55,
+        "cenaZ": 28,
+        "cenaE": 89,
+        "slozeni": [
+          "Kuřecí řízky",
+          "Kečup",
+          "Cibule",
+          "Klobása ostravská",
+          "Olej",
+          "Solamyl-bram.škrob",
+          "Sůl",
+          "Vývar zeleninový",
+          "Chilli koření",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Kuřecí plátek 150g na pivě",
+        "epopis": "Kuřecí plátek 150g na pivě",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 65,
+        "cenaZ": 37,
+        "cenaE": 99,
+        "slozeni": [
+          "Kuřecí řízky kalibrované",
+          "Párky debrecínské",
+          "Cibule",
+          "Chléb",
+          "Olej",
+          "Kuřecí řízky",
+          "Sůl",
+          "Vývar zeleninový",
+          "Kmín",
+          "Pepř mletý",
+          "Pilsner 0,33"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 92 ",
+        "popis": "Vepřová kotleta spišská",
+        "epopis": "Pork cutlet &quot;Spiš&quot;",
+        "alergen": "1,7,12",
+        "cenaS": 57,
+        "cenaZ": 30,
+        "cenaE": 91,
+        "slozeni": [
+          "Pečeně vepřová",
+          "Uzený sýr",
+          "Cibule",
+          "Olej",
+          "Víno bílé",
+          "Mouka hladká",
+          "Paprika mletá",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 300 ",
+        "popis": "Polévka bramborová",
+        "epopis": "Potato soup",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Brambory ",
+          "Mouka hladká",
+          "Mrkev",
+          "Celer",
+          "Petržel",
+          "Polévkové koření",
+          "Česneková pasta",
+          "Olej",
+          "Sůl",
+          "Vývar zeleninový",
+          "Cibule",
+          "Majoránka",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 250 ",
+        "popis": "Brambory maštěné máslem",
+        "epopis": "Potatoes with butter",
+        "alergen": "7",
+        "cenaS": 21,
+        "cenaZ": 21,
+        "cenaE": 21,
+        "slozeni": [
+          "Brambory ",
+          "Máslo",
+          "Sůl",
+          "Petržel nať",
+          "Kmín"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Hranolky M",
+        "epopis": "French fries",
+        "alergen": "",
+        "cenaS": 22,
+        "cenaZ": 22,
+        "cenaE": 22,
+        "slozeni": [
+          "Hranolky",
+          "Olej",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 180 ",
+        "popis": "Knedlíky houskové M",
+        "epopis": "Dumplings",
+        "alergen": "1,3,7",
+        "cenaS": 16,
+        "cenaZ": 16,
+        "cenaE": 16,
+        "slozeni": [
+          "Knedlíky houskové krájené hot."
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Rýže jasmínová",
+        "epopis": "Rýže jasmínová",
+        "alergen": "",
+        "cenaS": 13,
+        "cenaZ": 13,
+        "cenaE": 13,
+        "slozeni": [
+          "Rýže Jasmínová",
+          "Cibule",
+          "Olej",
+          "Sůl"
+        ]
+      }
+    ]
+  },
+  {
+    "cislo": 11,
+    "kod_pasport": "PUR013N010020",
+    "typ": "bufet",
+    "nazev": "Rychlé občerstvení Purkyňova",
+    "adresa": "Purkyňova 93, Brno-Královo Pole",
+    "stav": "n",
+    "otv1-4a": "11:00-18:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 16,
+    "kod_pasport": "PUK012N020097",
+    "typ": "menza",
+    "nazev": "Studentská jídelna FCH",
+    "adresa": "Purkyňova 118, Brno-Medlánky",
+    "stav": "m",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 92 ",
+        "popis": "Vepřová kotleta spišská",
+        "epopis": "Pork cutlet &quot;Spiš&quot;",
+        "alergen": "1,7,12",
+        "cenaS": 57,
+        "cenaZ": 30,
+        "cenaE": 91,
+        "slozeni": [
+          "Pečeně vepřová",
+          "Uzený sýr",
+          "Cibule",
+          "Olej",
+          "Víno bílé",
+          "Mouka hladká",
+          "Paprika mletá",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 300 ",
+        "popis": "Polévka frankfurtská",
+        "epopis": "Frankfurter soup",
+        "alergen": "1,3,6,7,9,10,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Mléko",
+          "Mouka hladká",
+          "Párky ",
+          "Párky debrecínské",
+          "Smetana na vaření",
+          "Cibule",
+          "Polévkové koření",
+          "Tuk",
+          "Sůl",
+          "Celer",
+          "Petržel",
+          "Mrkev",
+          "Paprika mletá",
+          "Vývar zeleninový",
+          "Pepř mletý",
+          "Bobkový list",
+          "Nové koření"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 250 ",
+        "popis": "Brambory maštěné máslem",
+        "epopis": "Potatoes with butter",
+        "alergen": "7",
+        "cenaS": 21,
+        "cenaZ": 21,
+        "cenaE": 21,
+        "slozeni": [
+          "Brambory ",
+          "Máslo",
+          "Sůl",
+          "Petržel nať",
+          "Kmín"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Rýže jasmínová",
+        "epopis": "Rýže jasmínová",
+        "alergen": "",
+        "cenaS": 13,
+        "cenaZ": 13,
+        "cenaE": 13,
+        "slozeni": [
+          "Rýže Jasmínová",
+          "Olej",
+          "Cibule",
+          "Sůl"
+        ]
+      }
+    ]
+  },
+  {
+    "cislo": 17,
+    "kod_pasport": "PUK012N020105",
+    "typ": "menza",
+    "nazev": "Zaměstnanecká jídelna FCH",
+    "adresa": "Purkyňova 118, Brno-Medlánky",
+    "stav": "z",
+    "otv1-4a": "-",
+    "otv1-4p": "-",
+    "otv5a": "-",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 15,
+    "kod_pasport": "PUK012N020092a",
+    "typ": "bufet",
+    "nazev": "Bufet FCH",
+    "adresa": "Purkyňova 118, Brno-Medlánky",
+    "stav": "n",
+    "otv1-4a": "7:30-14:30",
+    "otv1-4p": "-",
+    "otv5a": "7:30-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 12,
+    "kod_pasport": "TEC006N010015",
+    "typ": "menza",
+    "nazev": "Jídelna pro zaměstnance Q - Technická",
+    "adresa": "Technická 2, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-14:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 13,
+    "kod_pasport": "TEC006N010006",
+    "typ": "menza",
+    "nazev": "Restaurace Q - Technická",
+    "adresa": "Technická 2, Brno-Královo Pole",
+    "stav": "m",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 92 ",
+        "popis": "Vepřová kotleta spišská",
+        "epopis": "Pork cutlet &quot;Spiš&quot;",
+        "alergen": "1,7,12",
+        "cenaS": 57,
+        "cenaZ": 30,
+        "cenaE": 91,
+        "slozeni": [
+          "Pečeně vepřová",
+          "Uzený sýr",
+          "Cibule",
+          "Olej",
+          "Víno bílé",
+          "Mouka hladká",
+          "Paprika mletá",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 300 ",
+        "popis": "Polévka frankfurtská",
+        "epopis": "Frankfurter soup",
+        "alergen": "1,3,6,7,9,10,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Mléko",
+          "Mouka hladká",
+          "Párky ",
+          "Párky debrecínské",
+          "Smetana na vaření",
+          "Cibule",
+          "Polévkové koření",
+          "Tuk",
+          "Sůl",
+          "Celer",
+          "Petržel",
+          "Mrkev",
+          "Paprika mletá",
+          "Vývar zeleninový",
+          "Pepř mletý",
+          "Bobkový list",
+          "Nové koření"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 250 ",
+        "popis": "Brambory maštěné máslem",
+        "epopis": "Potatoes with butter",
+        "alergen": "7",
+        "cenaS": 21,
+        "cenaZ": 21,
+        "cenaE": 21,
+        "slozeni": [
+          "Brambory ",
+          "Máslo",
+          "Sůl",
+          "Petržel nať",
+          "Kmín"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Rýže jasmínová",
+        "epopis": "Rýže jasmínová",
+        "alergen": "",
+        "cenaS": 13,
+        "cenaZ": 13,
+        "cenaE": 13,
+        "slozeni": [
+          "Rýže Jasmínová",
+          "Cibule",
+          "Olej",
+          "Sůl"
+        ]
+      }
+    ]
+  },
+  {
+    "cislo": 5,
+    "kod_pasport": "BOZ016N020009",
+    "typ": "menza",
+    "nazev": "Menza Starý pivovar",
+    "adresa": "Božetěchova 1, Brno-Královo Pole",
+    "stav": "m",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "",
+        "popis": "Bageta",
+        "epopis": "Baguette",
+        "alergen": "",
+        "cenaS": 59,
+        "cenaZ": 77,
+        "cenaE": 77,
+        "slozeni": []
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "",
+        "popis": "Bageta special",
+        "epopis": "Bageta special",
+        "alergen": "",
+        "cenaS": 69,
+        "cenaZ": 86,
+        "cenaE": 86,
+        "slozeni": []
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "240 / 150 ",
+        "popis": "Kuře a la bažant",
+        "epopis": "Chicken meat baked with wild spices and bacon",
+        "alergen": "1",
+        "cenaS": 52,
+        "cenaZ": 24,
+        "cenaE": 86,
+        "slozeni": [
+          "Kuřecí stehna",
+          "Cibule",
+          "Slanina",
+          "Mouka hladká",
+          "Olej",
+          "Sůl",
+          "Bobkový list",
+          "Nové koření",
+          "Pepř celý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Kuřecí plátek 150g v omáčce nivové",
+        "epopis": "Kuřecí plátek 150g v omáčce nivové",
+        "alergen": "1,3,6,7,9,10,11,13",
+        "cenaS": 64,
+        "cenaZ": 37,
+        "cenaE": 98,
+        "slozeni": [
+          "Kuřecí řízky ",
+          "Niva sýr",
+          "Mléko",
+          "Smetana na vaření",
+          "Cibule",
+          "Mouka hladká",
+          "Olej",
+          "Sůl",
+          "Vývar zeleninový",
+          "Grilovací koření"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 300 ",
+        "popis": "Polévka zeleninová jarní",
+        "epopis": "Vegetable soup",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Brambory ",
+          "Mrkev",
+          "Polévkové koření",
+          "Celer",
+          "Petržel",
+          "Cibule",
+          "Sůl",
+          "Olej",
+          "Pór",
+          "Vývar zeleninový",
+          "Mr.česnek",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 250 ",
+        "popis": "Brambory maštěné máslem",
+        "epopis": "Potatoes with butter",
+        "alergen": "7",
+        "cenaS": 21,
+        "cenaZ": 21,
+        "cenaE": 21,
+        "slozeni": [
+          "Brambory ",
+          "Máslo",
+          "Sůl",
+          "Petržel nať",
+          "Kmín"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Hranolky M",
+        "epopis": "French fries",
+        "alergen": "",
+        "cenaS": 22,
+        "cenaZ": 22,
+        "cenaE": 22,
+        "slozeni": [
+          "Hranolky",
+          "Olej",
+          "Sůl"
+        ]
+      },
+      {
+        "typ": "Ostatní",
+        "gramaz": "– / 200 ",
+        "popis": "Rýže jasmínová",
+        "epopis": "Rýže jasmínová",
+        "alergen": "",
+        "cenaS": 13,
+        "cenaZ": 13,
+        "cenaE": 13,
+        "slozeni": [
+          "Rýže Jasmínová",
+          "Cibule",
+          "Olej",
+          "Sůl"
+        ]
+      }
+    ]
+  },
+  {
+    "cislo": 24,
+    "kod_pasport": "TEC100P010045",
+    "typ": "menza",
+    "nazev": "Zaměstnanecká jídelna FEKT",
+    "adresa": "Technická 10, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "10:30-14:00",
+    "otv1-4p": "-",
+    "otv5a": "10:30-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 25,
+    "kod_pasport": "TEC100P010046a",
+    "typ": "bufet",
+    "nazev": "Bufet FEKT",
+    "adresa": "Technická 10, Brno-Královo Pole",
+    "stav": "n",
+    "otv1-4a": "7:30-15:00",
+    "otv1-4p": "-",
+    "otv5a": "7:30-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 27,
+    "kod_pasport": "VEV021N010003",
+    "typ": "menza",
+    "nazev": "Menza Rybkova",
+    "adresa": "Rybkova 1, Brno-Veveří",
+    "stav": "m",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 390 ",
+        "popis": "Lívanečky s ovesnými vločkami",
+        "epopis": "Pancakes with oatmeal",
+        "alergen": "1,3,6,7",
+        "cenaS": 52,
+        "cenaZ": 25,
+        "cenaE": 86,
+        "slozeni": [
+          "Mléko",
+          "Mouka hladká",
+          "Tvaroh měkký",
+          "Džem meruňkový",
+          "Vločky ovesné",
+          "Smetana ",
+          "Cukr krystal",
+          "Olej",
+          "Cukr moučka",
+          "Droždí",
+          "Sůl",
+          "Vejce"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "200 / 122 ",
+        "popis": "Medailonky z vepř.panenky na smetaně a žampionech",
+        "epopis": "Medailonky z vepř.panenky na smetaně a žampionech",
+        "alergen": "1,7,9,10",
+        "cenaS": 66,
+        "cenaZ": 39,
+        "cenaE": 100,
+        "slozeni": [
+          "Panenka vepřová",
+          "Mléko",
+          "Mr.žampiony",
+          "Mouka hladká",
+          "Smetana na vaření",
+          "Mrkev",
+          "Tuk",
+          "Cibule",
+          "Celer",
+          "Petržel",
+          "Ocet",
+          "Máslo",
+          "Hořčice",
+          "Citrony",
+          "Cukr krystal"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 280 ",
+        "popis": "Přírodní zelenina s tofu",
+        "epopis": "Přírodní zelenina s tofu",
+        "alergen": "6",
+        "cenaS": 48,
+        "cenaZ": 21,
+        "cenaE": 83,
+        "slozeni": [
+          "Mr.fazolka",
+          "Mr.mrkev mini",
+          "Tofu bílé",
+          "Pór",
+          "Olej olivový",
+          "Sůl",
+          "Bylinkové máslo"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "100 / 350 ",
+        "popis": "Rizoto kuřecí s kari a smetanou",
+        "epopis": "Chicken risotto with kari and cream",
+        "alergen": "1,3,7,9,10,11,13",
+        "cenaS": 61,
+        "cenaZ": 33,
+        "cenaE": 95,
+        "slozeni": [
+          "Kuřecí řízky",
+          "Rýže",
+          "Mr.paprika",
+          "Mr.pór",
+          "Smetana na vaření",
+          "Eidam sýr",
+          "Cibule",
+          "Tuk",
+          "Sůl",
+          "Vývar slepičí",
+          "Kari koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "100 / 320 ",
+        "popis": "Tortilla Fajitas 2ks s kuřecím masem a zeleninou",
+        "epopis": "Tortilla Fajitas with chicken meat and vegetables",
+        "alergen": "1,7,11",
+        "cenaS": 67,
+        "cenaZ": 39,
+        "cenaE": 101,
+        "slozeni": [
+          "Zelí čínské",
+          "Kuřecí řízky",
+          "Paprika",
+          "St.rajčata krájená",
+          "Cibule",
+          "Smetana kysaná",
+          "Kečup",
+          "Olej",
+          "Fix chilli con carne - koření",
+          "Tortilla ",
+          "Sůl",
+          "Gyros-koření"
+        ]
+      },
+      {
+        "typ": "Polévka",
+        "gramaz": "– / 300 ",
+        "popis": "Polévka pórková",
+        "epopis": "Leek soup",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 15,
+        "cenaZ": 15,
+        "cenaE": 15,
+        "slozeni": [
+          "Pór",
+          "Cibule",
+          "Mouka hladká",
+          "Tuk",
+          "Polévkové koření",
+          "Vývar zeleninový",
+          "Vejce"
+        ]
+      }
+    ]
+  },
+  {
+    "cislo": 26,
+    "kod_pasport": "VEV021N020007",
+    "typ": "menza",
+    "nazev": "Restaurace Rybkova",
+    "adresa": "Rybkova 1, Brno-Veveří",
+    "stav": "z",
+    "otv1-4a": "11:00-14:00",
+    "otv1-4p": "-",
+    "otv5a": "-",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 28,
+    "kod_pasport": "VEV021N020006",
+    "typ": "bufet",
+    "nazev": "Cukrárna Rybkova",
+    "adresa": "Rybkova 1, Brno-Veveří",
+    "stav": "x",
+    "otv1-4a": "-",
+    "otv1-4p": "-",
+    "otv5a": "-",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  }
+]

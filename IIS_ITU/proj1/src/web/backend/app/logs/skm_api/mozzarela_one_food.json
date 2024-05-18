@@ -1,0 +1,39 @@
+[
+  {
+    "casR": "21. 11. 2022 11:46:02",
+    "casA": "21. 11. 2022 11:44:00"
+  },
+  {
+    "cislo": 18,
+    "kod_pasport": "KOL006N020075",
+    "typ": "menza",
+    "nazev": "Pizzerie Mozzarella",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "m",
+    "otv1-4a": "11:00-20:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "– / 350 ",
+        "popis": "Bramborové šišky s mákem",
+        "epopis": "Potato dumplings with poppy seed",
+        "alergen": "1,3,5,7,8,12",
+        "cenaS": 48,
+        "cenaZ": 21,
+        "cenaE": 82,
+        "slozeni": [
+          "Bramborové těsto",
+          "Máslo",
+          "Cukr moučka",
+          "Mák mletý",
+          "Sůl"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+<ipfixcol2>
+<!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+      </params>
+  </input>
+  </inputPlugins>
+
+    <intermediatePlugins>
+  <intermediate>
+    <name>Flow anonymization</name>
+    <plugin>anonymization</plugin>
+    <params>
+        <type>cryptopan</type>
+    </params>
+  </intermediate>
+  </intermediatePlugins>
+
+  <!-- Output plugins -->
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+  </outputPlugins>
+</ipfixcol2>

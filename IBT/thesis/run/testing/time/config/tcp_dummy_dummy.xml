@@ -1,0 +1,41 @@
+<ipfixcol2>
+<!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+      </params>
+  </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>Dummy intermediate</name>
+      <plugin>dummy_enricher</plugin>
+        <params>
+            <field>
+                <pen>0</pen>
+                <id>234</id>
+                <type>integer</type>
+                <value>666</value>
+                <times>1</times>
+            </field>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <!-- Output plugins -->
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+  </outputPlugins>
+</ipfixcol2>

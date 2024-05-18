@@ -1,0 +1,35 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>IPFIX File</name>
+      <plugin>ipfix</plugin>
+      <params>
+        <path>/home/adam/bp/run/flow_files/10M_flows.ipfix</path>
+      </params>
+    </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>ASN</name>
+      <plugin>asn</plugin>
+        <params>
+          <path>/home/adam/bp/GeoLite2-ASN.mmdb</path>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <!-- Output plugins -->
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+  </outputPlugins>
+</ipfixcol2>

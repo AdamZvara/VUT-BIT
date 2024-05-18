@@ -1,0 +1,36 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>IPFIX File</name>
+      <plugin>ipfix</plugin>
+      <params>
+        <path>/home/adam/bp/run/flow_files/short_flows.ipfix</path>
+        <!-- <path>/home/adam/bp/run/flow_files/test_data/data-plain-3000.ipfix</path> -->
+      </params>
+    </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>GEOIP</name>
+      <plugin>geoip</plugin>
+        <params>
+          <path>/home/adam/bp/GeoLite2-City.mmdb</path>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <!-- Output plugins -->
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+  </outputPlugins>
+</ipfixcol2>

@@ -1,0 +1,23 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>IPFIX File</name>
+      <plugin>ipfix</plugin>
+      <params>
+        <path>/home/adam/bp/run/flow_files/10k_templates.ipfix</path>
+      </params>
+    </input>
+  </inputPlugins>
+
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

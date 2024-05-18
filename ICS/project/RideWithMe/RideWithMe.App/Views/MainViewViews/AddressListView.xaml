@@ -1,0 +1,37 @@
+﻿<views:UserControlBase x:Class="RideWithMe.App.Views.MainViewViews.AddressListView"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                 xmlns:local="clr-namespace:RideWithMe.App.Views.MainViewViews"
+                 xmlns:mainViewVMs="clr-namespace:RideWithMe.App.ViewModels.MainViewVMs"
+                 xmlns:views="clr-namespace:RideWithMe.App.Views"
+                 mc:Ignorable="d" 
+                 d:DesignHeight="450" d:DesignWidth="800"
+                 d:DataContext="{d:DesignInstance mainViewVMs:AddressListViewModel}">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="{Binding AddressTypeDescription, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+                <Label Content="{Binding AddressesCount}" ContentStringFormat="available: {0}" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            </StackPanel> 
+            <ComboBox 
+                AllowDrop="True"
+                Width="{Binding Path=ActualWidth,RelativeSource={RelativeSource AncestorType=UserControl }}" 
+                HorizontalAlignment="Left"
+                SelectedItem="{Binding SelectedModel}"
+                ItemsSource="{Binding Addresses}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding City}" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="{Binding Street}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>
+
+    </Grid>
+</views:UserControlBase>

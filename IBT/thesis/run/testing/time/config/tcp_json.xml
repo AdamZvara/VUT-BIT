@@ -1,0 +1,35 @@
+<ipfixcol2>
+<!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+      </params>
+  </input>
+  </inputPlugins>
+  
+  <outputPlugins>
+    <output>
+      <name>json</name>
+      <plugin>json</plugin>
+      <params>
+        <!-- JSON format paramters -->
+        <tcpFlags>formatted</tcpFlags>
+        <timestamp>formatted</timestamp>
+        <protocol>formatted</protocol>
+        <ignoreUnknown>true</ignoreUnknown>
+        <ignoreOptions>true</ignoreOptions>
+        <nonPrintableChar>true</nonPrintableChar>
+
+        <!-- Output methods -->
+        <outputs>
+          <print>
+          <name>Printer to standard output</name>
+          </print>
+        </outputs>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

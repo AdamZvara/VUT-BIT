@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cp *.c 'tests/'
+cd 'tests/'
+cd 'build'
+
+#cmake ..
+
+make
+
+if [ "$?" -ne 0 ];then
+    echo ERROR
+else
+    ./htab_test
+fi

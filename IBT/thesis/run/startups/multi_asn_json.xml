@@ -1,0 +1,56 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+          <localIPAddress></localIPAddress>
+      </params>
+  </input>
+
+  <input>
+    <name>UDP input</name>
+    <plugin>udp</plugin>
+    <params>
+        <localPort>7000</localPort>
+        <localIPAddress></localIPAddress>
+    </params>
+  </input>
+  </inputPlugins>
+
+   <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>ASN</name>
+      <plugin>asn</plugin>
+        <params>
+          <path>/home/adam/bp/GeoLite2-ASN.mmdb</path>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <outputPlugins>
+    <output>
+      <name>json</name>
+      <plugin>json</plugin>
+      <params>
+        <!-- JSON format paramters -->
+        <tcpFlags>formatted</tcpFlags>
+        <timestamp>formatted</timestamp>
+        <protocol>formatted</protocol>
+        <ignoreUnknown>true</ignoreUnknown>
+        <ignoreOptions>true</ignoreOptions>
+        <nonPrintableChar>true</nonPrintableChar>
+
+        <!-- Output methods -->
+        <outputs>
+          <print>
+          <name>Printer to standard output</name>
+          </print>
+        </outputs>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

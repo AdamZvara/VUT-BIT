@@ -1,0 +1,24 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+  <input>
+    <name>UDP input</name>
+    <plugin>udp</plugin>
+    <params>
+        <localPort>7000</localPort>
+        <localIPAddress></localIPAddress>
+    </params>
+  </input>
+  </inputPlugins>
+
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

@@ -1,0 +1,27 @@
+Zadani c. 2:
+Uvazujte dvourozmerny obdelnikovy stavovy prostor o rozmerech 4 x 5
+s temito indexy jednotlivych stavu:
+
+      1      2      3      4      5
+      6      7      8      9     10
+     11     12     13     14     15
+     16     17     18     19     20
+
+Dale uvazujte, ze aktualni ohodnoceni jednotlivych stavu po predchozich
+prochazkach je nasledujici (zkratkami rew jsou oznaceny odmeny/rewards):
+
+  0.064  0.061 -0.050 -0.311 -0.109
+  rew=1  0.047 -0.106 rew=-1 -0.724
+  0.693  0.156 -0.138 -0.516 -0.372
+  0.284  0.024 -0.061 -0.179 -0.112
+
+Metodou TD-learning s koeficienty alpha=0.1 a gamma=0.9 vypocitejte nova
+ohodnoceni vsech stavu po prochazce stavy  1 2 7 12 11 16 17 18 13 8 9
+a vysledek zapiste ve formatu stejnem jako vyse, tj. ve tvaru matice
+s cisly zaokrouhlenymi na tri desetinna mista!
+
+Reseni: 
+  0.063  0.059 -0.050 -0.311 -0.109
+  1.000  0.056 -0.195 -1.000 -0.724
+  0.649  0.203 -0.134 -0.516 -0.372
+  0.258  0.016 -0.067 -0.179 -0.112

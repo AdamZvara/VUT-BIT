@@ -1,0 +1,47 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>IPFIX File</name>
+      <plugin>ipfix</plugin>
+      <params>
+        <path>/home/adam/bp/run/flow_files/option_flows.ipfix</path>
+      </params>
+    </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>GEOIP</name>
+      <plugin>geoip</plugin>
+        <params>
+          <path>/home/adam/bp/GeoLite2-City.mmdb</path>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <!-- Output plugins -->
+   <outputPlugins>
+    <output>
+      <name>json</name>
+      <plugin>json</plugin>
+      <params>
+        <!-- JSON format paramters -->
+        <tcpFlags>formatted</tcpFlags>
+        <timestamp>formatted</timestamp>
+        <protocol>formatted</protocol>
+        <ignoreUnknown>true</ignoreUnknown>
+        <ignoreOptions>false</ignoreOptions>
+        <nonPrintableChar>true</nonPrintableChar>
+
+        <!-- Output methods -->
+        <outputs>
+          <print>
+          <name>Printer to standard output</name>
+          </print>
+        </outputs>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

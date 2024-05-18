@@ -1,0 +1,2 @@
+This repository only contains latex project of the thesis and some experiments .. The source code provided for this thesis is in a private CESNET repository for IPFIXcol2. The testing flows are randomly generated from a smaller subsample, which has been
+anonymized.

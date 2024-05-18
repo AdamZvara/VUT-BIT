@@ -1,0 +1,161 @@
+[
+  {
+    "cislo": 18,
+    "kod_pasport": "KOL006NO20075",
+    "typ": "menza",
+    "nazev": "Pizzerie Mozzarella",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "m",
+    "otvl-4a": "11:00-20:00",
+    "otvl-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "100 / 350 ",
+        "popis": "Asijské rizoto",
+        "epopis": "Asian risotto",
+        "alergen": "1,3,6,7,9,13",
+        "cenaS": 54,
+        "cenaZ": 27,
+        "cenaE": 88,
+        "slozeni": [
+          "Kýta vepřová",
+          "Rýže",
+          "Olej",
+          "Eidam sýr",
+          "Mr.paprika",
+          "Mr.žampiony",
+          "Mr.pór",
+          "Sojová omáčka",
+          "Sůl",
+          "Zázvor mletý",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Hovězí steak s americkým kořením",
+        "epopis": "Beef steak with american spicy",
+        "alergen": "7,9,10,11",
+        "cenaS": 67,
+        "cenaZ": 62,
+        "cenaE": 116,
+        "slozeni": [
+          "Hovězí roštěná ",
+          "Olej",
+          "Sůl",
+          "Country koření",
+          "Grilovací koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Krkovička steak 150g",
+        "epopis": "Krkovička steak 150g",
+        "alergen": "7,10,11",
+        "cenaS": 57,
+        "cenaZ": 52,
+        "cenaE": 106,
+        "slozeni": [
+          "Krkovice vepřová 150g ",
+          "Olej",
+          "Mr.česnek",
+          "Hořčice",
+          "Sůl",
+          "Gyros-koření",
+          "Pepř mletý"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "120 / 72 ",
+        "popis": "Kuřecí maso po čínsku",
+        "epopis": "Chinese chicken meat",
+        "alergen": "1,3,6,7,9,10,11,13",
+        "cenaS": 53,
+        "cenaZ": 25,
+        "cenaE": 87,
+        "slozeni": [
+          "Kuřecí řízky",
+          "Pór",
+          "St.paprika",
+          "Cibule",
+          "Olej",
+          "Sojová omáčka",
+          "Solamyl-bram.škrob",
+          "Metropol",
+          "Cukr krystal",
+          "Kari koření",
+          "Sůl",
+          "Vývar zeleninový"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "150 / 90 ",
+        "popis": "Kuřecí steak",
+        "epopis": "Chicken steak",
+        "alergen": "3,7,9,10,11",
+        "cenaS": 57,
+        "cenaZ": 52,
+        "cenaE": 106,
+        "slozeni": [
+          "Kuřecí řízky ",
+          "Olej",
+          "Solamyl-bram.škrob",
+          "Grilovaci koření",
+          "Máslo",
+          "Vejce"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "- / 450 ",
+        "popis": "Pizza 4 druhy sýrů",
+        "epopis": "Pizza Quattro Formaggi",
+        "alergen": "1,6,7,12",
+        "cenaS": 75,
+        "cenaZ": 70,
+        "cenaE": 125,
+        "slozeni": [
+          "St.rajčata krájená",
+          "Mozzarella sýr",
+          "Uzený sýr",
+          "Niva sýr",
+          "Rajčata",
+          "Cukr krystal",
+          "Olej olivový",
+          "Sůl",
+          "Těsto na pizzu",
+          "Hermelín sýr ",
+          "Oregáno koření"
+        ]
+      },
+      {
+        "typ": "Hl. jídlo",
+        "gramaz": "- / 410 ",
+        "popis": "Pizza cibulová se slaninou",
+        "epopis": "Pizza with onion and bacon",
+        "alergen": "1,6,7",
+        "cenaS": 56,
+        "cenaZ": 53,
+        "cenaE": 107,
+        "slozeni": [
+          "Smetana ",
+          "Anglická slanina",
+          "Eidam sýr",
+          "Cibule",
+          "Olej olivový",
+          "Těsto na pizzu",
+          "Oregáno koření"
+        ]
+      }
+    ]
+  }
+]

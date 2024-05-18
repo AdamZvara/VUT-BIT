@@ -1,0 +1,46 @@
+version: '3.8'
+
+
+networks:
+  default:
+      external:
+        name: outside
+
+
+services:
+  backend:
+    hostname: hodnocemenz_BE
+    build:
+      context: ./web/backend
+      dockerfile: Dockerfile.prod
+    command: gunicorn --bind 0.0.0.0:5000 manage:app --log-file=- --log-level=debug
+    expose:
+      - 5000
+    env_file:
+      - web/backend/.env.prod
+    depends_on:
+      - db
+
+  frontend:
+    hostname: hodnocemenz_FE
+    container_name: frontend
+    build: 
+      context: ./web/frontend
+      dockerfile: Dockerfile.prod
+    volumes:
+      - ./web/frontend/app/src:/usr/src/app/src:Z
+    expose:
+      - 80
+    environment:
+      - VUE_APP_API_URL=http://api.hlad.jevlk.cz/api
+
+  db:
+    image: postgres:13-alpine
+    volumes:
+      - postgres_data_prod:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=hello_flask
+      - POSTGRES_PASSWORD=hello_flask
+      - POSTGRES_DB=hello_flask_dev
+volumes:
+  postgres_data_prod:

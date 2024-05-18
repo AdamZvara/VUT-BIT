@@ -1,0 +1,52 @@
+<ipfixcol2>
+<!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+      </params>
+  </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>Dummy intermediate</name>
+      <plugin>dummy_enricher</plugin>
+        <params>
+            <field>
+                <pen>0</pen>
+                <id>82</id>
+                <type>string</type>
+                <value>abc</value>
+                <times>1</times>
+            </field>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <outputPlugins>
+    <output>
+      <name>json</name>
+      <plugin>json</plugin>
+      <params>
+        <!-- JSON format paramters -->
+        <tcpFlags>formatted</tcpFlags>
+        <timestamp>formatted</timestamp>
+        <protocol>formatted</protocol>
+        <ignoreUnknown>true</ignoreUnknown>
+        <ignoreOptions>true</ignoreOptions>
+        <nonPrintableChar>true</nonPrintableChar>
+
+        <!-- Output methods -->
+        <outputs>
+          <print>
+          <name>Printer to standard output</name>
+          </print>
+        </outputs>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

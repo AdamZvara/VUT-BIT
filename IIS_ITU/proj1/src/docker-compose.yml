@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+
+  backend:
+    container_name: backend
+    build: ./web/backend
+    command: python manage.py run -h 0.0.0.0
+    volumes:
+      - ./web/backend:/usr/src/app/:Z
+    ports:
+      - 5000:5000
+    env_file:
+      - web/backend/.env.dev
+    depends_on:
+      - db
+
+  frontend:
+    container_name: frontend
+    build: ./web/frontend
+    command: npm run serve
+    volumes:
+      - ./web/frontend/app/src:/usr/src/app/src:Z
+    ports:
+      - 8080:8080
+    environment:
+      - VUE_APP_API_URL=http://localhost:5000/api
+
+  db:
+    image: postgres:13-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=hello_flask
+      - POSTGRES_PASSWORD=hello_flask
+      - POSTGRES_DB=hello_flask_dev
+    ports:
+      - 5432:5432
+
+volumes:
+  postgres_data:

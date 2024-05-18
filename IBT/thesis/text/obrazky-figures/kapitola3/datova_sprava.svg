@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.3000002in"
+   height="2.987in"
+   viewBox="0 0 508.78374 286.74282"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="datova_sprava.svg"
+   inkscape:export-filename="datova_sprava.pdf"
+   inkscape:export-xdpi="93.4666"
+   inkscape:export-ydpi="93.4666"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="259"
+     inkscape:cy="98"
+     inkscape:window-width="2880"
+     inkscape:window-height="1694"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4371" />
+    <sodipodi:guide
+       position="272.61628,127.62291"
+       orientation="0,-1"
+       id="guide1043"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient49264"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop49262" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-2-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-1-0" />
+    </marker>
+  </defs>
+  <g
+     id="g8562"
+     transform="matrix(1.8449211,0,0,1.8449211,240.26922,-13.342882)"
+     inkscape:label="raw_msg">
+    <path
+       id="rect1186"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.619443;stroke-miterlimit:20;stroke-opacity:0.73"
+       d="M 35.505637,81.307541 V 70.369806 h 61.280247 v 10.937735"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.577863"
+       x="48.11771"
+       y="77.243683"
+       id="text1184"><tspan
+         sodipodi:role="line"
+         id="tspan1182"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.577863"
+         x="48.11771"
+         y="77.243683">Hlavička správy</tspan></text>
+    <path
+       id="rect1188"
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.699763;stroke-miterlimit:20;stroke-opacity:0.43;fill-opacity:1"
+       d="m 35.522095,90.689795 v -9.032372 h 61.223629 v 9.032372"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="rect1190"
+       style="fill:#e6e6e6;fill-opacity:0.44810122;stroke:#000000;stroke-width:0.652209;stroke-miterlimit:20;stroke-opacity:0.43"
+       d="M 35.477025,111.44168 V 91.032976 h 61.257149 v 20.408704"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.577863"
+       x="50.425293"
+       y="87.977097"
+       id="text1253"><tspan
+         sodipodi:role="line"
+         id="tspan1251"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.577863"
+         x="50.425293"
+         y="87.977097">Hlavička sady</tspan></text>
+    <g
+       id="g12880"
+       transform="translate(0,-31.021637)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.71355px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.577863"
+         x="64.503723"
+         y="145.48038"
+         id="text1315"><tspan
+           sodipodi:role="line"
+           id="tspan1313"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.71355px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.577863"
+           x="64.503723"
+           y="145.48038">...</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.65574;stroke-miterlimit:20;stroke-dasharray:none;stroke-opacity:0.43"
+         id="rect2598"
+         width="61.255161"
+         height="6.0309248"
+         x="35.478016"
+         y="142.21864" />
+    </g>
+    <rect
+       style="font-variation-settings:normal;display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.688019;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:20;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect23356"
+       width="61.361023"
+       height="46.910858"
+       x="35.438889"
+       y="70.303062" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.10041px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.737465"
+       x="48.970932"
+       y="66.750961"
+       id="text1284-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan1282-6-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.10041px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.737465"
+         x="48.970932"
+         y="66.750961">IPFIX správa</tspan></text>
+    <g
+       id="g8389">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="51.161472"
+         y="97.776421"
+         id="text1253-1"><tspan
+           sodipodi:role="line"
+           id="tspan1251-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           x="51.161472"
+           y="97.776421">Záznam sady</tspan></text>
+      <path
+         id="rect7383"
+         style="fill:none;stroke:#000000;stroke-width:0.377941;stroke-dasharray:0.377941, 1.13382;stroke-dashoffset:0;stroke-opacity:0.43;stop-color:#000000"
+         d="M 96.734415,91.032974 V 101.21116 H 35.476782 V 91.032974"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="51.175278"
+       y="107.72531"
+       id="text1253-1-8"><tspan
+         sodipodi:role="line"
+         id="tspan1251-9-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="51.175278"
+         y="107.72531">Záznam sady</tspan></text>
+    <path
+       id="rect7383-88"
+       style="fill:none;stroke:none;stroke-width:0.377941;stroke-dasharray:0.377941, 1.13382;stroke-dashoffset:0;stroke-opacity:0.43;stop-color:#000000"
+       d="m 96.748218,101.07635 v 10.17819 H 35.490585 v -10.17819"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <path
+     style="display:none;fill:none;stroke:#000000;stroke-width:0.660008;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+     d="M 6.3063826,163.30934 H 44.751819"
+     id="path14682" />
+  <path
+     style="display:none;fill:none;stroke:#000000;stroke-width:0.701741;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-2)"
+     d="M 89.828615,161.82409 H 133.2896"
+     id="path14682-0" />
+  <g
+     id="g39781"
+     transform="translate(5.303131,-12.083897)"
+     style="display:none">
+    <g
+       id="g23521"
+       transform="matrix(1.7033383,0,0,1.7033383,-494.07708,-56.520449)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.26028px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         x="134.27921"
+         y="40.202724"
+         id="text1253-1-8-0"
+         transform="matrix(1.5818206,0,0,1.5818206,90.081799,27.231624)"><tspan
+           sodipodi:role="line"
+           id="tspan1251-9-8-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.26028px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           x="134.27921"
+           y="40.202724">IPFIX</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.26028px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.522293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           x="134.27921"
+           y="44.676018"
+           id="tspan14800">správa</tspan></text>
+      <rect
+         style="fill:#a0a0a0;fill-opacity:0.364532;fill-rule:nonzero;stroke:#000000;stroke-width:0.245669;stroke-dasharray:none;stroke-opacity:1"
+         width="19.348167"
+         height="23.123621"
+         x="292.9382"
+         y="102.18818"
+         id="rect17146"
+         transform="scale(0.99996797)" />
+    </g>
+  </g>
+  <g
+     id="g39726"
+     transform="translate(0,-11.633079)"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4788px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="113.05931"
+       y="98.082062"
+       id="text1253-1-8-0-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4788px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="113.05931"
+         y="98.082062"
+         id="tspan14800-0">Prázdna dátová</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4788px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="113.05931"
+         y="110.1348"
+         id="tspan24446">správa</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.42314;stroke-dasharray:none;stroke-opacity:1"
+       width="33.325283"
+       height="39.828121"
+       x="96.59507"
+       y="117.64878"
+       id="rect17146-3" />
+    <rect
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.890103;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect24618"
+       width="12.399777"
+       height="16.414093"
+       x="99.073761"
+       y="120.40278" />
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a0a0a0;fill-opacity:0.364532;fill-rule:nonzero;stroke:#000000;stroke-width:0.418444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       width="14.298155"
+       height="17.088186"
+       x="112.70993"
+       y="138.01328"
+       id="rect17146-3-3" />
+  </g>
+  <path
+     style="display:none;fill:none;stroke:#000000;stroke-width:0.701741;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.701741, 0.701741;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-2-9)"
+     d="M 138.07201,165.17206 H 94.61102"
+     id="path14682-0-9" />
+  <g
+     id="g25264"
+     transform="matrix(1.1815876,0,0,1.1815876,-340.77231,7.0432347)"
+     style="display:none">
+    <rect
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.68642;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="rect24634"
+       width="61.407307"
+       height="26.118034"
+       x="403.77933"
+       y="121.99026" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.51528px;line-height:1.15;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.16654"
+       x="434.13452"
+       y="131.97539"
+       id="text1284-3-5-8-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.51528px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.16654"
+         x="434.13452"
+         y="131.97539"
+         id="tspan14652-4">Pre-</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.51528px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.16654"
+         x="434.13452"
+         y="142.91795"
+         id="tspan25559">procesor</tspan></text>
+  </g>
+  <g
+     id="g14674"
+     transform="matrix(0.97357053,0,0,0.97357053,-284.78119,33.176357)"
+     style="display:none">
+    <path
+       style="font-variation-settings:normal;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.680293;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="path14615"
+       sodipodi:type="arc"
+       sodipodi:cx="363.73715"
+       sodipodi:cy="132.66914"
+       sodipodi:rx="23.090107"
+       sodipodi:ry="34.178135"
+       sodipodi:start="0"
+       sodipodi:end="6.2830108"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 386.82726,132.66914 a 23.090107,34.178135 0 0 1 -23.0891,34.17814 23.090107,34.178135 0 0 1 -23.09111,-34.17515 23.090107,34.178135 0 0 1 23.08708,-34.181121 23.090107,34.178135 0 0 1 23.09313,34.172171" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8173px;line-height:1.15;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.32616;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="363.71075"
+       y="130.88069"
+       id="text1284-3-5-8"><tspan
+         sodipodi:role="line"
+         id="tspan1282-6-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8173px;line-height:1.15;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.32616;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="363.71075"
+         y="130.88069">Vstupný</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.8173px;line-height:1.15;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.32616;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="363.71075"
+         y="143.32059"
+         id="tspan14652">modul</tspan></text>
+  </g>
+  <g
+     id="g39670"
+     style="display:none">
+    <g
+       id="g39606">
+      <g
+         id="g29585"
+         transform="matrix(1.5592393,0,0,1.5592393,-538.27414,-54.791577)">
+        <g
+           id="g23521-3-4"
+           transform="matrix(1.2067434,0,0,1.2067434,121.03609,-22.290113)">
+          <rect
+             style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ff1010;fill-opacity:0.360784;fill-rule:nonzero;stroke:none;stroke-width:0.443919;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+             id="rect26528"
+             width="7.3090963"
+             height="3.21386"
+             x="294.48813"
+             y="109.94771" />
+          <rect
+             style="font-variation-settings:normal;vector-effect:none;fill:#0053d3;fill-opacity:0.360784;fill-rule:nonzero;stroke:none;stroke-width:0.49946;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart-0);stop-color:#000000"
+             id="rect26528-8"
+             width="7.4448996"
+             height="3.9941733"
+             x="294.10193"
+             y="105.96396" />
+          <rect
+             style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.245669;stroke-dasharray:none;stroke-opacity:1"
+             width="19.348167"
+             height="23.123621"
+             x="292.9382"
+             y="102.18818"
+             id="rect17146-3-1"
+             transform="scale(0.99996797)" />
+          <rect
+             style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.516764;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+             id="rect24618-8"
+             width="7.1988974"
+             height="9.5294752"
+             x="294.36786"
+             y="103.78378" />
+          <rect
+             style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#a0a0a0;fill-opacity:0.364532;fill-rule:nonzero;stroke:#000000;stroke-width:0.268364;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+             width="10.017216"
+             height="11.971898"
+             x="383.60394"
+             y="112.9596"
+             id="rect17146-3-3-9"
+             transform="matrix(0.82867656,0,0,0.82867656,-15.599035,20.400873)" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.245661;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-2)"
+           d="m 484.94977,108.7001 h 2.80571 l -0.0221,5.59895"
+           id="path26682" />
+        <path
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.236001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart-2);stop-color:#000000;stop-opacity:1"
+           d="m 483.25297,114.42978 -0.0405,4.99387 h 1.72126"
+           id="path26958" />
+        <path
+           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.229445;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart-2);stop-color:#000000;stop-opacity:1"
+           d="m 479.68151,114.65219 -0.12391,7.32811 h 5.267"
+           id="path26958-3" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4788px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+         x="219.90891"
+         y="86.041107"
+         id="text1253-1-8-0-0-4"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4788px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           x="219.90891"
+           y="86.041107"
+           id="tspan14800-0-6">Dátová</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.4788px;line-height:1.05;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40725;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           x="219.90891"
+           y="98.093849"
+           id="tspan24446-2">správa</tspan></text>
+    </g>
+  </g>
+  <g
+     id="g5286"
+     transform="translate(1.7677104)">
+    <g
+       id="g3732"
+       transform="translate(-101.11303,-3.4569961)">
+      <g
+         id="g9052-2"
+         inkscape:label="wrapper_fields"
+         transform="matrix(1.3434279,0,0,1.3434279,94.078151,42.487686)"
+         style="display:inline;stroke-width:0.869512;stroke-dasharray:none">
+        <rect
+           style="font-variation-settings:normal;fill:#ffd700;fill-opacity:0.42929292;stroke:none;stroke-width:0.756892;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+           id="rect9126-2"
+           width="82.244736"
+           height="36.833359"
+           x="47.616165"
+           y="84.892097" />
+        <path
+           id="rect5979-0-9"
+           style="fill:none;stroke:#000000;stroke-width:0.869006;stroke-dasharray:none;stop-color:#000000"
+           d="M 129.89945,84.971026 V 97.385163 H 47.77664 V 84.971026"
+           sodipodi:nodetypes="cccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.869512;stroke-dasharray:none"
+           x="57.412754"
+           y="93.919258"
+           id="text1284-3-58-0-9-9-2-6"><tspan
+             sodipodi:role="line"
+             id="tspan10775"
+             x="57.412754"
+             y="93.919258">Štruktúry záznamov</tspan></text>
+        <g
+           id="g9748-1"
+           inkscape:label="set1"
+           transform="matrix(1.3732937,0,0,1.3732937,12.628221,11.367926)"
+           style="stroke-width:0.633158;stroke-dasharray:none">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.633158;stroke-dasharray:none"
+             x="45.154907"
+             y="69.388847"
+             id="text1284-3-58-0-9-9-2-8-5"><tspan
+               sodipodi:role="line"
+               id="tspan10787"
+               x="45.154907"
+               y="69.388847">Záznam 1</tspan></text>
+          <path
+             id="rect5979-0-3-1"
+             style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.633158;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+             d="m 85.397712,62.634593 v 9.039685 H 25.60169 v -9.039685"
+             sodipodi:nodetypes="cccc" />
+        </g>
+        <g
+           id="g9743-6"
+           inkscape:label="set2"
+           transform="matrix(1.3732937,0,0,1.3732937,12.628221,11.367926)"
+           style="stroke-width:0.633158;stroke-dasharray:none">
+          <path
+             id="rect5979-0-3-8-6"
+             style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.633158;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+             d="m 85.413471,71.327068 v 9.039608 h -59.81738 v -9.039608"
+             sodipodi:nodetypes="cccc" />
+        </g>
+        <g
+           id="g9743-6-1"
+           inkscape:label="set3"
+           transform="matrix(1.3732937,0,0,1.3732937,12.628221,23.36144)"
+           style="display:inline;stroke-width:0.633158;stroke-dasharray:none">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.633158;stroke-dasharray:none"
+             x="53.514584"
+             y="68.139297"
+             id="text1284-3-58-0-9-9-2-8-4-7-0"><tspan
+               sodipodi:role="line"
+               id="tspan13112"
+               x="53.514584"
+               y="68.139297">...</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g3520"
+         transform="matrix(1.1242075,0,0,1.1242075,-148.8411,-21.646166)">
+        <g
+           id="g9052"
+           inkscape:label="wrapper_sets"
+           style="display:inline;stroke-width:0.869512;stroke-dasharray:none"
+           transform="matrix(1.1949999,0,0,1.1949999,216.07048,13.020824)">
+          <rect
+             style="font-variation-settings:normal;display:inline;opacity:1;fill:#0057b7;fill-opacity:0.5808081;stroke:none;stroke-width:0.869512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+             id="rect9126"
+             width="81.314842"
+             height="36.544033"
+             x="48.161797"
+             y="84.97271" />
+          <path
+             id="rect5979-0"
+             style="fill:none;stroke:#000000;stroke-width:0.869512;stroke-dasharray:none;stop-color:#000000"
+             d="M 129.92962,84.971214 V 97.384988 H 47.708786 V 84.971214"
+             sodipodi:nodetypes="cccc" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.869512;stroke-dasharray:none"
+             x="64.599052"
+             y="93.152626"
+             id="text1284-3-58-0-9-9-2"><tspan
+               sodipodi:role="line"
+               id="tspan10777"
+               x="64.599052"
+               y="93.152626">Odkazy na sady</tspan></text>
+          <g
+             id="g9748"
+             inkscape:label="set1"
+             transform="matrix(1.3732937,0,0,1.3732937,12.628221,11.367926)"
+             style="stroke-width:0.633158;stroke-dasharray:none">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.633158;stroke-dasharray:none"
+               x="48.477196"
+               y="69.104782"
+               id="text1284-3-58-0-9-9-2-8"><tspan
+                 sodipodi:role="line"
+                 id="tspan1282-6-1-1-7-1-0-9"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.633158;stroke-dasharray:none"
+                 x="48.477196"
+                 y="69.104782">Sada 1</tspan></text>
+            <path
+               id="rect5979-0-3"
+               style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.633158;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+               d="m 85.397712,62.634593 v 9.039685 H 25.60169 v -9.039685"
+               sodipodi:nodetypes="cccc" />
+            <path
+               style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.633158;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+               id="path7055-2-3"
+               sodipodi:type="arc"
+               sodipodi:cx="69.354568"
+               sodipodi:cy="67.273514"
+               sodipodi:rx="0.83966243"
+               sodipodi:ry="0.83966243"
+               sodipodi:start="0"
+               sodipodi:end="6.2830108"
+               sodipodi:open="true"
+               sodipodi:arc-type="arc"
+               d="m 70.194231,67.273514 a 0.83966243,0.83966243 0 0 1 -0.839626,0.839662 0.83966243,0.83966243 0 0 1 -0.839699,-0.839589 0.83966243,0.83966243 0 0 1 0.839553,-0.839736 0.83966243,0.83966243 0 0 1 0.839772,0.839516" />
+            <path
+               style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.382853;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               id="path7055-2-3-7"
+               sodipodi:type="arc"
+               sodipodi:cx="82.225357"
+               sodipodi:cy="40.083736"
+               sodipodi:rx="0.80312192"
+               sodipodi:ry="0.80312192"
+               sodipodi:start="0"
+               sodipodi:end="6.2830108"
+               sodipodi:open="true"
+               sodipodi:arc-type="arc"
+               d="m 83.028479,40.083736 a 0.80312192,0.80312192 0 0 1 -0.803087,0.803122 0.80312192,0.80312192 0 0 1 -0.803157,-0.803052 0.80312192,0.80312192 0 0 1 0.803017,-0.803191 0.80312192,0.80312192 0 0 1 0.803227,0.802981" />
+          </g>
+          <g
+             id="g9743"
+             inkscape:label="set2"
+             transform="matrix(1.3732937,0,0,1.3732937,12.628221,11.367926)"
+             style="stroke-width:0.633158;stroke-dasharray:none">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.633158;stroke-dasharray:none"
+               x="53.785587"
+               y="76.269463"
+               id="text1284-3-58-0-9-9-2-8-4"><tspan
+                 sodipodi:role="line"
+                 id="tspan13015"
+                 x="53.785587"
+                 y="76.269463">...</tspan></text>
+            <path
+               id="rect5979-0-3-8"
+               style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.633158;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+               d="m 85.413471,71.327068 v 9.039608 h -59.81738 v -9.039608"
+               sodipodi:nodetypes="cccc" />
+          </g>
+        </g>
+        <g
+           id="g3480">
+          <g
+             id="g6007"
+             inkscape:label="obalka"
+             transform="matrix(1.6410859,0,0,1.6410859,101.8765,13.887491)"
+             style="stroke-width:0.633158;stroke-dasharray:none">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.10041px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.633158;stroke-dasharray:none"
+               x="125.00526"
+               y="21.120384"
+               id="text1284-3-5-6"><tspan
+                 sodipodi:role="line"
+                 id="tspan1282-6-7-5"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.10041px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.633158;stroke-dasharray:none"
+                 x="125.00526"
+                 y="21.120384">Obálka</tspan></text>
+          </g>
+        </g>
+        <g
+           id="g10773"
+           style="display:inline;stroke-width:0.869512;stroke-dasharray:none"
+           transform="matrix(1.1949999,0,0,1.1949999,216.07048,13.020824)">
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.869512;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+             id="rect5979"
+             width="82.169121"
+             height="12.233129"
+             x="47.737854"
+             y="35.504917" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.37765px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.869512;stroke-dasharray:none"
+             x="56.189232"
+             y="132.73772"
+             id="text1284-3"><tspan
+               sodipodi:role="line"
+               id="tspan1282-6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.37765px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.869512;stroke-dasharray:none"
+               x="56.189232"
+               y="132.73772" /></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.869512;stroke-dasharray:none"
+             x="75.603096"
+             y="44.3895"
+             id="text1284-3-58"><tspan
+               sodipodi:role="line"
+               id="tspan1282-6-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.869512;stroke-dasharray:none"
+               x="75.603096"
+               y="44.3895">Hlavička</tspan></text>
+          <path
+             id="rect5979-9"
+             style="fill:none;stroke:#000000;stroke-width:0.869512;stroke-dasharray:none;stop-color:#000000"
+             d="M 129.85539,47.733165 V 60.147428 H 47.771591 V 47.733165"
+             sodipodi:nodetypes="cccc" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.869512;stroke-dasharray:none"
+             x="65.322662"
+             y="56.299835"
+             id="text1284-3-58-0"><tspan
+               sodipodi:role="line"
+               id="tspan1282-6-1-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.869512;stroke-dasharray:none"
+               x="65.322662"
+               y="56.299835">Kontext správy</tspan></text>
+          <g
+             id="g9116"
+             transform="matrix(1.3732937,0,0,1.3732937,12.628221,11.367926)"
+             style="stroke-width:0.633158;stroke-dasharray:none">
+            <path
+               id="rect5979-9-1"
+               style="fill:none;stroke:#000000;stroke-width:0.633158;stroke-dasharray:none;stop-color:#000000"
+               d="m 85.393914,35.519052 v 9.039417 H 25.522632 v -9.039417"
+               sodipodi:nodetypes="cccc" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.586774;stroke-dasharray:none"
+               x="30.165649"
+               y="41.770504"
+               id="text1284-3-58-0-9"><tspan
+                 sodipodi:role="line"
+                 id="tspan1282-6-1-1-7"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.05877px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.586774;stroke-dasharray:none"
+                 x="30.165649"
+                 y="41.770504">Odkaz na IPFIX správu</tspan></text>
+          </g>
+          <path
+             id="rect5979-9-1-8"
+             style="fill:none;stroke:#000000;stroke-width:0.869512;stroke-dasharray:none;stop-color:#000000"
+             d="m 129.81134,72.558287 v 12.41442 H 47.771434 v -12.41442"
+             sodipodi:nodetypes="cccc" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.805813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+             x="56.642021"
+             y="81.125038"
+             id="text1284-3-58-0-9-9"><tspan
+               sodipodi:role="line"
+               id="tspan1282-6-1-1-7-1"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94718px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.805813;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+               x="56.642021"
+               y="81.125038">Veľkosť IPFIX správy</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.44751;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect3875"
+       width="110.42505"
+       height="165.33961"
+       x="57.086288"
+       y="37.233238" />
+  </g>
+  <path
+     style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.17204;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+     id="path7055-2-3-77"
+     sodipodi:type="arc"
+     sodipodi:cx="272.37714"
+     sodipodi:cy="155.50188"
+     sodipodi:rx="1.5543008"
+     sodipodi:ry="1.5543008"
+     sodipodi:start="0"
+     sodipodi:end="6.2830108"
+     sodipodi:open="true"
+     sodipodi:arc-type="arc"
+     d="m 273.93144,155.50188 a 1.5543008,1.5543008 0 0 1 -1.55424,1.5543 1.5543008,1.5543008 0 0 1 -1.55436,-1.55417 1.5543008,1.5543008 0 0 1 1.55409,-1.55443 1.5543008,1.5543008 0 0 1 1.55451,1.55403" />
+  <g
+     id="g4920"
+     transform="translate(-9.5786229,-6.4709865)">
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.06957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4453"
+       width="84.997276"
+       height="44.998558"
+       x="199.99359"
+       y="154.99504" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="205.92116"
+       y="166.31824"
+       id="text1253-1-3"><tspan
+         sodipodi:role="line"
+         id="tspan1251-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="205.92116"
+         y="166.31824">Odkaz na záznam</tspan></text>
+    <rect
+       style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.06958;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect4543"
+       width="84.997276"
+       height="14.999519"
+       x="199.99359"
+       y="154.99504" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="210.71527"
+       y="181.82816"
+       id="text1253-1-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan1251-9-9-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="210.71527"
+         y="181.82816">Dĺžka záznamu</tspan></text>
+    <rect
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.06958;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect4543-1"
+       width="84.997276"
+       height="14.999519"
+       x="199.99359"
+       y="169.99455" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="205.57025"
+       y="196.31528"
+       id="text4745"><tspan
+         sodipodi:role="line"
+         id="tspan4743"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="205.57025"
+         y="196.31528">Šablóna záznamu</tspan></text>
+    <rect
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.06958;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect4747"
+       width="84.997276"
+       height="14.999519"
+       x="199.99359"
+       y="184.99208" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="211.83405"
+       y="211.29039"
+       id="text4879"><tspan
+         sodipodi:role="line"
+         id="tspan4877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33303px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.963589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="211.83405"
+         y="211.29039">Snímka šablón</tspan></text>
+    <rect
+       style="font-variation-settings:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.06958;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       id="rect4881"
+       width="84.997276"
+       height="14.999519"
+       x="199.99359"
+       y="199.96036" />
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.03658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleStart)"
+     d="M 163.03001,78.823062 H 307.11344 V 111.44187"
+     id="path5586" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.03658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+     d="m 139.11881,128.86609 h 153.26048 v 9.1921 h 7.68954"
+     id="path5823" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.19659;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.738916"
+     d="m 185.8807,149.19811 c -13.09939,-0.35257 -0.18431,21.82624 -12.91206,27.46749 12.91358,8.1093 0.0913,30.37884 12.91206,30.37884"
+     id="path1396"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.995707px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+     d="m 272.42878,155.55751 h 28.60256"
+     id="path1045" />
+</svg>

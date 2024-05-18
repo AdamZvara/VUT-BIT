@@ -1,0 +1,46 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>IPFIX File</name>
+      <plugin>ipfix</plugin>
+      <params>
+        <path>/home/adam/bp/run/flow_files/3k_flows.ipfix</path>
+      </params>
+    </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>ASN</name>
+      <plugin>asn</plugin>
+        <params>
+          <path>/home/adam/bp/GeoLite2-ASN.mmdb</path>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <outputPlugins>
+    <output>
+      <name>json</name>
+      <plugin>json</plugin>
+      <params>
+        <!-- JSON format paramters -->
+        <tcpFlags>formatted</tcpFlags>
+        <timestamp>formatted</timestamp>
+        <protocol>formatted</protocol>
+        <ignoreUnknown>true</ignoreUnknown>
+        <ignoreOptions>true</ignoreOptions>
+        <nonPrintableChar>true</nonPrintableChar>
+
+        <!-- Output methods -->
+        <outputs>
+          <print>
+          <name>Printer to standard output</name>
+          </print>
+        </outputs>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

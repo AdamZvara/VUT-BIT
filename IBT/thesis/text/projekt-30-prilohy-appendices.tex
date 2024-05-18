@@ -1,0 +1,146 @@
+% This file should be replaced with your file with an appendices (headings below are examples only)
+
+% For compilation piecewise (see projekt.tex), it is necessary to uncomment it and change
+%\documentclass[../projekt.tex]{subfiles}
+%\begin{document}
+
+% Placing of table of contents of the memory media here should be consulted with a supervisor
+\chapter{Obsah priloženého pamäťového média}
+\label{appendix:source}
+Štruktúra odovzdaného archívu v~priloženej SD karte:
+
+\setlength{\DTbaselineskip}{20pt}
+\DTsetlength{0.5em}{1em}{0.3em}{0.4pt}{3pt}
+
+\dirtree{%
+.1 root.
+.2 source/.
+.3 ipfixcol2/
+    \begin{minipage}[t]{10cm}
+        \hspace{1em}
+        \ldots
+        \hspace{1em}
+        \rmfamily Zdrojové súbory kolektoru \textit{IPFIXcol2}
+    \end{minipage}.
+.3 libfds/
+    \begin{minipage}[t]{10cm}
+        \hspace{2.5em}
+        \ldots
+        \hspace{1em}
+        \rmfamily Zdrojové súbory knižnice \textit{libfds}
+    \end{minipage}.
+.3 README.md
+    \begin{minipage}[t]{10cm}
+        \hspace{1.47em}
+        \ldots
+        \hspace{1em}
+        \rmfamily Popis kompilácie a spustenia kolektoru
+    \end{minipage}.
+.2 config/
+    \begin{minipage}[t]{10cm}
+        \hspace{4.21em}
+        \ldots
+        \hspace{1em}
+        \rmfamily Príklady konfigurácií s~novými modulmi
+    \end{minipage}.
+.2 docs/
+    \begin{minipage}[t]{10cm}
+        \hspace{5.22em}
+        \ldots
+        \hspace{1em}
+        \rmfamily Zdrojové texty tejto práce
+    \end{minipage}.
+.2 thesis.pdf
+    \begin{minipage}[t]{10cm}
+        \hspace{2.71em}
+        \ldots
+        \hspace{1em}
+        \rmfamily Text bakalárskej práce
+    \end{minipage}.
+}
+
+\chapter{Konfigurácia nových modulov}
+\label{appendix:configuration}
+Konfigurácia kolektoru je realizovaná pomocou jazyka XML, prostredníctvom ktorého je možné definovať vstupné, vnútorné a výstupné moduly kolektoru.
+Príklady konfigurácií sú dostupné na stránke repozitára IPFIXcol2\footnote{\url{https://github.com/CESNET/ipfixcol2/tree/master/doc/data/configs}}.
+
+\subsection*{Ukážkový obohacovací modul}
+
+Ukážkový modul umožňuje definíciu položiek, ktorými sú obohatené záznamy prichádzajúcich IPFIX správ. Povinnou súčasťou definície položky je:
+\begin{itemize}
+    \setlength\itemsep{-0.5em}
+    \item PEN (\textit{Private Enterprise Number})
+    \item identifikačné číslo informačného elementu
+    \item dátový typ (string, integer, decimal)
+    \item hodnota položky
+\end{itemize}
+
+\noindent Voliteľne je možné definovať početnosť výskytu novej položky v~obohatenom zázname. Príklad konfigurácie ukážkového modulu pri jednorázovom obohacovaní tokov celočíselnou položkou:
+
+\definecolor{darkBlue}{rgb}{0,0,0.6}
+
+\lstdefinelanguage{myXML}{
+    language=XML,
+    keywordstyle=\color{darkBlue},
+}
+
+\lstset{language=myXML}
+\begin{lstlisting}
+<intermediate>
+  <name>Dummy intermediate plugin</name>
+  <plugin>dummy_enricher</plugin>
+    <params>
+        <field>
+            <pen>0</pen>
+            <id>21</id>
+            <type>integer</type>
+            <value>1023456</value>
+            <times>1</times>
+        </field>
+    </params>
+</intermediate>
+\end{lstlisting} \newpage
+
+\subsection*{Modul ASN}
+
+Konfigurácia modulu ASN obsahuje ako jediný parameter cestu k~databázovému súboru \textit{GeoLite2-ASN}, ktorý bude využívaný v~priebehu obohacovania tokov. Príklad konfigurácie tohto modulu:
+
+\begin{lstlisting}
+<intermediate>
+    <name>ASN enrichment</name>
+    <plugin>asn</plugin>
+    <params>
+        <path>/home/user/maxmind/GeoLite2-ASN.mmdb</path>
+    </params>
+</intermediate>
+\end{lstlisting}
+
+\subsection*{Modul GeoIP}
+
+Konfigurácia modulu GeoIP obsahuje parameter cesty k~databázovému súboru \textit{GeoLite2-City}. Okrem neho je možné definovať geolokačné položky, ktorými budú obohacované záznamy prijatých správ.
+V~súčasnosti je podporované obohacovanie tokov nasledovnými položkami:
+
+\begin{itemize}
+    \setlength\itemsep{-0.5em}
+    \item \textit{continent} -- textový reťazec označenia kontinentu (NA, EU, AF \ldots)
+    \item \textit{country} -- označenie krajiny podľa normy ISO 3166-1 alpha-2 (SK, CZ, UK \ldots)
+    \item \textit{city} -- názov mesta v~anglickom jazyku
+    \item \textit{latitude} -- súradnice zemepisnej šírky
+    \item \textit{longitude} -- súradnice zemepisnej dĺžky
+\end{itemize}
+
+Pri vynechaní definícií týchto položiek je použitá predvolená kombinácia obohatenia toku kódom krajiny a názvom mesta. Príklad konfigurácie modulu GeoIP s~položkami kódu kontinentu a názvu mesta:
+
+\begin{lstlisting}
+<intermediate>
+    <name>GeoIP enrichment</name>
+    <plugin>geoip</plugin>
+      <params>
+        <path>/home/user/maxmind/GeoLite2-City.mmdb</path>
+        <fields>
+            <field>continent</field>
+            <field>city</field>
+        </fields>
+      </params>
+</intermediate>
+\end{lstlisting}

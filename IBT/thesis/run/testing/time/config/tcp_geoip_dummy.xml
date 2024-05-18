@@ -1,0 +1,35 @@
+<ipfixcol2>
+  <!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+      </params>
+  </input>
+  </inputPlugins>
+
+  <!-- Intermediate plugins -->
+  <intermediatePlugins>
+    <intermediate>
+      <name>GEOIP</name>
+      <plugin>geoip</plugin>
+        <params>
+          <path>/home/current/xzvara01/bp/GeoLite2-City.mmdb</path>
+        </params>
+    </intermediate>
+  </intermediatePlugins>
+
+  <!-- Output plugins -->
+  <outputPlugins>
+    <output>
+      <name>Dummy output</name>
+      <plugin>dummy</plugin>
+      <params>
+        <delay>0</delay>
+        <stats>true</stats>
+      </params>
+    </output>
+  </outputPlugins>
+</ipfixcol2>

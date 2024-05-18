@@ -1,0 +1,59 @@
+.TH FLOW 1
+.SH NAME
+flow \- create netflow v5 packets which are sent to collector
+.SH SYNOPSIS
+.B flow
+[\fB\-f\fR \fIFILE\fR]
+[\fB\-c\fR \fIIP\fR|\fIHOSTNAME\fR[:\fIPORT\fR]]
+[\fB\-a\fR \fISECONDS\fR]
+[\fB\-i\fR \fISECONDS\fR]
+[\fB\-m\fR \fISIZE\fR]
+.SH DESCRIPTION
+.B flow
+creates netflow v5 packets which are sent to collector.
+It reads the data from pcap file and processes the flows according the options given.
+Flows are then exported to user defined collector.
+.SH OPTIONS
+.TP
+.BR \-f " " \fIFILE\fR
+Set the source pcap file.
+Default is standard input.
+.TP
+.BR \-c " " \fIIP\fR|\fIHOSTNAME\fR[:\fIPORT\fR]]
+Set specific collector address and port to send netflow packets to.
+Default address is 127.0.0.1:2055.
+.TP
+.BR \-a " " \fR \fISECONDS\fR
+Active timer in seconds after which flows are exported to collector.
+Default timer is 60 seconds.
+.TP
+.BR \-i " " \fR \fISECONDS\fR
+Inactive timer in seconds after which flows are exported to collector.
+Default timer is 10 seconds.
+.TP
+.BR \-m " " \fR \fISIZE\fR
+Size of flow cache, in which flows are stored.
+Default size is 1024.
+.SH EXAMPLES
+Read data from icmp.pcap file and send to localhost on port 2055
+.nf
+.RS
+.BR flow " " \-f " " icmp.pcap
+.RE
+.fi
+.PP
+Send data to my.collector on port 1234 with active timer 30 seconds and inactive timer 5 seconds.
+.nf
+.RS
+.BR flow " " \-c " " my.collector:1234 " " \-a " " 30 " " \-i " " 5
+.RE
+.fi
+.PP
+Send data to IPv6 address 2600:: on port 5555 with 512 flow cache size.
+.nf
+.RS
+.BR flow " " \-c " " [2600::]:5555 " " \-m " " 512
+.RE
+.fi
+.SH SEE ALSO
+.BR pcap\fR(3PCAP)

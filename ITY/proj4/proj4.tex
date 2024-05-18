@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[a4paper, left=2cm, top=3cm, text={17cm, 24cm}]{geometry}
+\usepackage[slovak]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[unicode]{hyperref}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+    \Huge
+    \textsc{Vysoké učení technické v Brně\\
+    \huge
+    Fakulta informačních technologií}\\
+    \vspace{\stretch{0.382}}
+    \LARGE
+    Typografia a publikovanie\,--\,4. projekt\\
+    \Huge
+    Citácie a bibliografické odkazy\\
+    \vspace{\stretch{0.618}}
+    \Large
+    \today \hfill Adam Zvara
+\end{center}
+\end{titlepage}
+
+\section{Kybernetická bezpečnosť}
+
+\subsection{Definícia}
+Za kybernetickú bezpečnosť sa považuje kolekcia nástrojov, konceptov, usmernení a cvičení, ktorých cieľom je ochrana kybernetického prostredia organizácií a ich aktív \cite{Schatz2017}. Existuje niekoľko spôsobov, ktorými sa prejavuje kybernetický útok a taktiež niekoľko spôsobov, ako sa pred takýmito útokmi brániť.
+
+\subsection{Modelovanie hrozieb}
+Modelovanie hrozieb (\emph{Threat Modeling}) patrí medzi jeden zo základných spôsobov testovania bezpečnosti systému. Je založený na vytváraní abstraktných modelov, ktorých cieľom je odhaliť bezpečnostné problémy testovaného systému. Viac o tejto téme nájdete v \cite{Shostack2014}.
+
+\section{Útoky}
+Kybernetický útok (\emph{Cyber Attack}) je možné definovať ako akékoľvek úmyselné jednanie útočníka v kyberpriestore, ktoré smeruje proti záujmom inej osoby \cite{Kolouch2019}. Medzi základne druhý útokov patria phishing, spam, lámanie hesiel alebo DOS útoky.
+
+Phishingom označujeme pokus o podvodné získanie súkromných informácií, ktorými môžu byť napríklad heslá alebo informácie o kreditných kartách, maskovaním sa za dôveryhodnú osobu pri elektronickej komunikácii. Viac o phishingu sa môžete dozvedieť na \cite{wiki:Phishing}.
+
+Spamom \cite{wiki:Spam} sa rozumie nevyžiadané a hromadne rozosielanie správ identického obsahu veľkému množstvu príjemcov. Jedná sa o zneužívanie elektronickej komunikácie, najčastejšie e-mailu.
+
+Lámanie hesiel (\emph{password cracking}) označuje rozličné metódy určené na odhalenie počítačových hesiel, ktoré sú  založené na systematickom výbere hesiel, pričom pre každé
+vybraté heslo sa overuje jeho správnosť \cite{Hranicky2016}.
+
+Útoky odoprenia služby (\emph{Denial Of Service}) sú útoky, ktorých účelom je zabrániť legitímnym užívateľom pristupovať k určitej službe. Existuje viacero variánt prevedenia DOS útoku, ktoré sú bližšie popísané v diplomovej práci \cite{Gerlichy2017}.
+
+\section{Útočenie nie len na počítače}
+\subsection{Sociálne inžinierstvo} 
+Sociálne inžinierstvo predstavuje širokú škálu aktivít spojenú so získavaním citlivých informácií prostredníctvom medziľudských interakcií a psychologickej manipulácie. O všeobecnom postupe a opatreniach si môžete prečítať v članku \cite{SocialEngineering}.
+
+
+\subsection{Kyberšikanovanie}
+Kyberšikanovanie môžeme definovať \cite{CyberBullying} ako využívanie informačných technológií, najčastejšie sociálnych sietí, na úmyselné a  opakované šírenie nenávistného chovania jedinca alebo skupiny ľudí so zámerom poškodenia iných osôb.
+Na túto tému existuje mnoho zaujímavých štúdií \cite{CyberBullyingStudy}, ktoré popisujú vnímanie kyberšikanovania samotnými študentmi.
+
+
+\newpage
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatúra}
+\bibliography{proj4}
+
+\end{document}

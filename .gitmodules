@@ -1,0 +1,9 @@
+[submodule "IVS/proj2"]
+	path = IVS/proj2
+	url = https://github.com/AdamZvara/IVS_project2.git
+[submodule "IFJ/proj1"]
+	path = IFJ/proj1
+	url = https://github.com/AdamZvara/ifj2021.git
+[submodule "IMS/proj1"]
+	path = IMS/proj1
+	url = https://github.com/AdamZvara/ims_project.git

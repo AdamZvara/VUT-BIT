@@ -1,0 +1,278 @@
+[
+  {
+    "casR": "12. 11. 2022 16:27:08",
+    "casA": "12. 11. 2022 16:26:27"
+  },
+  {
+    "cislo": 18,
+    "kod_pasport": "KOL006N020075",
+    "typ": "menza",
+    "nazev": "Pizzerie Mozzarella",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-20:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 19,
+    "kod_pasport": "KOL006N010044",
+    "typ": "bufet",
+    "nazev": "Caffe Bar Piccolo",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "7:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "7:00-14:00",
+    "otv5p": "-",
+    "otv67a": "7:00-9:30",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 20,
+    "kod_pasport": "KOL006N020103",
+    "typ": "menza",
+    "nazev": "Menza Kolejní",
+    "adresa": "Kolejní 2, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 10,
+    "kod_pasport": "PUR013N020017",
+    "typ": "menza",
+    "nazev": "Menza Purkyňova",
+    "adresa": "Purkyňova 93, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "17:00-20:00",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 11,
+    "kod_pasport": "PUR013N010020",
+    "typ": "bufet",
+    "nazev": "Rychlé občerstvení Purkyňova",
+    "adresa": "Purkyňova 93, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-18:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 16,
+    "kod_pasport": "PUK012N020097",
+    "typ": "menza",
+    "nazev": "Studentská jídelna FCH",
+    "adresa": "Purkyňova 118, Brno-Medlánky",
+    "stav": "z",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 17,
+    "kod_pasport": "PUK012N020105",
+    "typ": "menza",
+    "nazev": "Zaměstnanecká jídelna FCH",
+    "adresa": "Purkyňova 118, Brno-Medlánky",
+    "stav": "z",
+    "otv1-4a": "-",
+    "otv1-4p": "-",
+    "otv5a": "-",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 15,
+    "kod_pasport": "PUK012N020092a",
+    "typ": "bufet",
+    "nazev": "Bufet FCH",
+    "adresa": "Purkyňova 118, Brno-Medlánky",
+    "stav": "z",
+    "otv1-4a": "7:30-14:30",
+    "otv1-4p": "-",
+    "otv5a": "7:30-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 12,
+    "kod_pasport": "TEC006N010015",
+    "typ": "menza",
+    "nazev": "Jídelna pro zaměstnance Q - Technická",
+    "adresa": "Technická 2, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-14:00",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 13,
+    "kod_pasport": "TEC006N010006",
+    "typ": "menza",
+    "nazev": "Restaurace Q - Technická",
+    "adresa": "Technická 2, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 5,
+    "kod_pasport": "BOZ016N020009",
+    "typ": "menza",
+    "nazev": "Menza Starý pivovar",
+    "adresa": "Božetěchova 1, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 24,
+    "kod_pasport": "TEC100P010045",
+    "typ": "menza",
+    "nazev": "Zaměstnanecká jídelna FEKT",
+    "adresa": "Technická 10, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "10:30-14:00",
+    "otv1-4p": "-",
+    "otv5a": "10:30-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 25,
+    "kod_pasport": "TEC100P010046a",
+    "typ": "bufet",
+    "nazev": "Bufet FEKT",
+    "adresa": "Technická 10, Brno-Královo Pole",
+    "stav": "z",
+    "otv1-4a": "7:30-15:00",
+    "otv1-4p": "-",
+    "otv5a": "7:30-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 27,
+    "kod_pasport": "VEV021N010003",
+    "typ": "menza",
+    "nazev": "Menza Rybkova",
+    "adresa": "Rybkova 1, Brno-Veveří",
+    "stav": "z",
+    "otv1-4a": "11:00-14:30",
+    "otv1-4p": "-",
+    "otv5a": "11:00-14:00",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 26,
+    "kod_pasport": "VEV021N020007",
+    "typ": "menza",
+    "nazev": "Restaurace Rybkova",
+    "adresa": "Rybkova 1, Brno-Veveří",
+    "stav": "z",
+    "otv1-4a": "11:00-14:00",
+    "otv1-4p": "-",
+    "otv5a": "-",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  },
+  {
+    "cislo": 28,
+    "kod_pasport": "VEV021N020006",
+    "typ": "bufet",
+    "nazev": "Cukrárna Rybkova",
+    "adresa": "Rybkova 1, Brno-Veveří",
+    "stav": "z",
+    "otv1-4a": "-",
+    "otv1-4p": "-",
+    "otv5a": "-",
+    "otv5p": "-",
+    "otv67a": "-",
+    "otv67p": "-",
+    "menu": [
+      {}
+    ]
+  }
+]

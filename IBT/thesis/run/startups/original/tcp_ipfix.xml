@@ -1,0 +1,27 @@
+<ipfixcol2>
+<!-- Input plugins -->
+  <inputPlugins>
+    <input>
+      <name>TCP input</name>
+      <plugin>tcp</plugin>
+      <params>
+          <localPort>8000</localPort>
+      </params>
+  </input>
+  </inputPlugins>
+
+  <outputPlugins>
+    <output>
+      <name>IPFIX output</name>
+      <plugin>ipfix</plugin>
+      <params>
+          <filename>output2.ipfix</filename>
+          <useLocalTime>false</useLocalTime>
+          <windowSize>300</windowSize>
+          <alignWindows>true</alignWindows>
+          <preserveOriginal>false</preserveOriginal>
+          <rotateOnExportTime>false</rotateOnExportTime>
+      </params>
+    </output>
+    </outputPlugins>
+</ipfixcol2>

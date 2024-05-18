@@ -1,0 +1,20 @@
+./../flow -f abc
+ERROR: could not open given file
+./../flow -f test.sh
+ERROR: unknown file format
+./../flow -a -20
+ERROR: Argument must be followed by a positive number
+./../flow -i -20
+ERROR: Argument must be followed by a positive number
+./../flow -m -20
+ERROR: Argument must be followed by a positive number
+./../flow -a abc
+ERROR: Argument followed by an invalid number
+./../flow -i abc
+ERROR: Argument followed by an invalid number
+./../flow -m abc
+ERROR: Argument followed by an invalid number
+./../flow -m abc -i -20 -a omg
+ERROR: Argument followed by an invalid number
+./../flow -c abcdefgh
+ERROR: getaddrinfo failed: Could not resolve hostname

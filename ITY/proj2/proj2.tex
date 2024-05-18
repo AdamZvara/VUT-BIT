@@ -1,0 +1,133 @@
+\documentclass[11pt, twocolumn]{article}
+
+\usepackage[a4paper, left=1.5cm, top=2.5cm, text={18cm, 25cm}]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+\newtheorem{definition}{Definice}
+\newtheorem{sentence}{Věta}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+    \Huge
+    \textsc{Vysoké učení technické v Brně\\[-0.2em]
+    \huge
+    Fakulta informačních technologií}\\
+    \vspace{\stretch{0.382}}
+    \LARGE
+    Typografie a publikování\,--\,2. projekt\\
+    Sazba dokumentů a matematických výrazů\\
+    \vspace{\stretch{0.618}}
+    \Large
+    2022 \hfill Adam Zvara (xzvara01) 
+\end{center}
+\end{titlepage}
+
+\section*{Úvod}
+V~této úloze si vyzkoušíme sazbu titulní strany, matematických vzorců, prostředí a dalších textových struktur obvyklých pro technicky zaměřené texty (například rovnice (\ref{eq:2}) nebo Definice \ref{def:2} na straně \pageref{def:2}). Pro vytvoření těchto odkazů používáme příkazy \verb|\label|, \verb|\ref| a \verb|\pageref|.
+
+Na titulní straně je využito sázení nadpisu podle optického středu s~využitím zlatého řezu. Tento postup byl probírán na přednášce. Dále je na titulní straně použito odřádkování se zadanou relativní velikostí 0,4\,em a 0,3\,em.
+
+\section{Matematický text}
+Nejprve se podíváme na sázení matematických symbolů\linebreak a výrazů v~plynulém textu včetně sazby definic a vět s~vy\-užitím balíku \verb|amsthm|. Rovněž použijeme poznámku pod čarou s~použitím příkazu \verb|\footnote|. Někdy je vhodné použít konstrukci \verb|${}$| nebo \verb|\mbox{}|, která říká, že (matematický) text nemá být zalomen. 
+
+
+\begin{definition}
+\emph{Nedeterministický Turingův stroj} (NTS) je šestice tvaru $M = (Q, \Sigma, \Gamma, \delta, q_0, q_F)$, kde:
+\begin{itemize}
+    \item $Q$ je konečná množina \emph{vnitřních (řídicích) stavů},
+    \item $\Sigma$ je konečná množina symbolů nazývaná \emph{vstupní abeceda}, $\Delta \notin \Sigma$,
+    \item $\Gamma$ je konečná množina symbolů, $\Sigma \subset \Gamma, \Delta \in \Gamma$, nazývaná \emph{pásková abeceda},
+    \item $\delta : (Q\,\backslash\,\{q_F\}) \times \Gamma \rightarrow 2^{Q \times (\Gamma \cup \{L,R\})}$, kde $L, R \notin \Gamma$, je parciální \emph{přechodová funkce}, a
+    \item $q_0 \in Q$ je \emph{počáteční stav} a $q_F \in Q$ je \emph{koncový stav}.
+\end{itemize}
+\end{definition}
+
+Symbol $\Delta$ značí tzv. \emph{blank} (prázdný symbol), který se vyskytuje na místech pásky, 
+která nebyla ještě použita.
+
+\emph{Konfigurace pásky} se skládá z nekonečného řetězce, který reprezentuje obsah pásky, a pozice
+hlavy na tomto řetězci. Jedná se o prvek množiny $\{\gamma\Delta^{\omega}\mid\gamma\in\Gamma^{\ast}\}\times\mathbb{N}$\footnote{Pro libovolnou abecedu $\Sigma$ je $\Sigma^{\omega}$ množina všech \emph{nekonečných} řetězců nad $\Sigma$, tj. nekonečných posloupností symbolů ze $\Sigma$.}.
+\emph{Konfiguraci pásky} obvykle zapisujeme jako $\Delta xyz\underline{z}x\Delta\ldots$ (podtržení značí pozici hlavy).
+\emph{Konfigurace stroje} je pak dána stavem řízení a konfigurací pásky. Formálně se jedná o prvek množiny
+$Q \times \{\gamma \Delta^{\omega} \mid \gamma \in \Gamma^{\ast}\} \times \mathbb{N}$.
+
+\subsection{Podsekce obsahující definici a větu}
+
+\begin{definition}
+\label{def:2}
+\emph{Řetězec $\omega$ nad abecedou $\Sigma$\,je\,přijat NTS} $M$, jestliže $M$ při aktivaci z~počáteční konfigurace pásky $\underline{\Delta}\omega\Delta$\,\dots a počátečního stavu $q_0$ může zastavit přechodem do koncového stavu $q_F$, tj. $(q_0, \Delta\omega\Delta^{\omega},0) \overset{{\ast}}{\underset{M}{\vdash}} (q_F,\gamma,n)$ pro nějaké $\gamma \in \Gamma^{\ast}$ a $n \in \mathbb{N}$.
+
+Množinu $L(M) = \{w\ |\ w$ je přijat NTS $M\}\subseteq \Sigma^{\ast}$ nazýváme \emph{jazyk přijímaný NTS} $M$.
+\end{definition}
+
+Nyní si vyzkoušíme sazbu vět a důkazů opět s~použitím balíku \verb|amsthm|.
+
+\begin{sentence}
+Třída jazyků, které jsou přijímány NTS, odpovídá \emph{rekurzivně vyčíslitelným jazykům}.
+\end{sentence}
+
+
+\section{Rovnice}
+
+Složitější matematické formulace sázíme mimo plynulý text. Lze umístit několik výrazů na jeden řádek, ale pak je třeba tyto vhodně oddělit, například příkazem \verb|\quad|.
+
+\[
+x^2 - \sqrt[4]{y_1 * y_2^3}\quad x>y_1\geq y_2\quad z_{z_z}\neq \alpha_1^{\alpha_2^{\alpha_3}}
+\]
+
+V~rovnici (\ref{eq:1}) jsou využity tři typy závorek s~různou explicitně definovanou velikostí.
+
+\begin{eqnarray}
+    \label{eq:1}
+    x & = & \bigg\{ a \oplus \Big[ b \cdot \big( c \ominus d \big) \Big] \bigg\}^{4/2} \\ 
+    \label{eq:2}
+    y & = & \lim_{\beta\to\infty}\frac{\tan^2\beta-\sin^3\beta}{\frac{1}{\frac{1}{\log_{42}x}+\frac{1}{2}}}
+\end{eqnarray}
+
+V~této větě vidíme, jak vypadá implicitní vysázení limity $\lim_{n\to\infty}f(n)$ v~normálním odstavci textu. Podobně je to i s~dalšími symboly jako $\bigcup_{N\in \mathcal{M}}N$ či $\sum_{j=0}^{n}x_j^2 $.
+S~vynucením méně úsporné sazby příkazem \verb|\limits| budou vzorce vysázeny v~podobě $\lim\limits_{n\to\infty}f(n)$ a $\sum\limits_{j=0}^{n}x_j^2$.
+
+
+\section{Matice}
+
+Pro sázení matic se velmi často používá prostředí \verb|array| a závorky (\verb|\left|, \verb|\right|). 
+
+\[
+\text{\textbf{A}} =
+\left|
+\begin{array}{cccc}
+    a_{11} & a_{12} & \ldots & a_{1n} \\
+    a_{21} & a_{22} & \ldots & a_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    a_{m1} & a_{m2} & \ldots & a_{mn}
+\end{array}
+\right|
+=
+\left|
+\begin{array}{cc}
+    t & u~\\
+    v~& w
+\end{array}
+\right|
+= tw\!-\!uv
+\]
+
+Prostředí \verb|array| lze úspěšně využít i jinde.
+
+\[ 
+\binom{n}{k} = \left\{
+\begin{array}{c l}
+\frac{n!}{k!(n-k)!} & \text{pro } 0 \leq k\leq n  \\
+0 & \text{pro } k>n \text{ nebo } k<0
+\end{array} \right.
+\]
+
+\end{document}

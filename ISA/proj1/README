@@ -1,0 +1,51 @@
+Autor: Adam Zvara
+Login: xzvara01
+Datum: 31.10.2022
+
+Popis:
+Implementácia NetFlow exportéra, ktorý na vstupe prijíma sieťové dáta uložené vo forme pcap súborov a vytvára z nich NetFlow (v5) záznamy, ktoré sú odoslané kolektoru na ďalšie spracovanie
+
+Príklady spustenia:
+pcap súbor zo STDIN, adresa kolektoru: 127.0.0.1:2055, aktívny/neaktívny časovač: 60/10 [s], veľkosť flow_cache: 1024
+./flow
+
+pcap súbor zo icmp.pcap, adresa kolektoru: google.com:1234, aktívny/neaktívny časovač: 30/5 [s], veľkosť flow_cache: 512
+./flow -f icmp.pcap -c google.com:1234 -a 30 -i 5 -m 512
+
+Odovzdané súbory:
+├── flow.cpp
+├── flow.hpp
+├── Makefile
+├── README
+├── src
+│   ├── capture.cpp
+│   ├── capture.hpp
+│   ├── debug.hpp
+│   ├── parse.cpp
+│   ├── parse.hpp
+│   ├── store.cpp
+│   └── store.hpp
+└── test
+    ├── cases
+    ├── out
+    │   ├── icmp
+    │   ├── icmp_fcache
+    │   ├── icmp_inactive
+    │   ├── mixed
+    │   ├── tcp
+    │   ├── tcpdownload
+    │   ├── tcpdownload_active
+    │   ├── tcpfin
+    │   ├── udp
+    │   ├── udp_fcache
+    │   ├── udp_inactive
+    │   └── wifi
+    ├── src
+    │   ├── icmp.pcap
+    │   ├── mixed.pcap
+    │   ├── tcpdownload.pcap
+    │   ├── tcpfin.pcap
+    │   ├── tcp.pcap
+    │   ├── udp.pcap
+    │   └── wifi.pcap
+    └── test.sh
