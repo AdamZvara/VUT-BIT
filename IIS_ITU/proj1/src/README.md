@@ -1,5 +1,7 @@
 # Informarčný systém na hodnotenie jedál vo VUT menzách
 
+<img src="https://github.com/user-attachments/assets/2e5fa038-8ae5-45f8-956d-97e6d9769690" height=600></img>
+
 ## Softwarové požiadavky
 Docker a docker-compose. Všetko potrebné sa automaticky nakonfiguruje. Všetky použité knižnice sú napsisáné v requirements.txt, package.json a dockerfiles pre BE a FE
 
